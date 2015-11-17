@@ -1,14 +1,203 @@
 {% extends 'refugees/base.html' %}
 {% load humanize %}
 
-{% block title %}refugees{% endblock%}
-
-{% block social %}{% endblock %}
-
-{% block morestyles %}{% endblock %}
-
-{% block content %}
-    <div class="container" style="margin-top:50px;"><h1>Hello, world</h1></div>
+{% block styles %}
+#chart { width: 100%; height: 250px; margin-bottom:30px;}
+th { cursor:pointer; cursor:hand; }
 {% endblock %}
 
-{% block scripts %}{% endblock %}
+{% block content %}
+<div class="jumbotron">
+<div class="container">
+<h3>Since 2002, more than <strong>{{ total_count.quoi|intcomma }}</strong> refugees from <strong>{{ sum_by_country.count }}</strong> countries have been resettled in the United States.</h3>
+</div>
+</div>
+
+<div class="container">
+<div class="row" style="margin-top:35px;">
+<div class="col-md-7">
+    <div class="mapcontainer">
+        <svg id="map" style="display:block; margin: 0 auto;" width="960" height="960" viewBox="0 0 960 960" preserveAspectRatio="xMidYMid"></svg>
+    </div>
+</div>
+
+<div class="col-md-5">
+<div id="chart"></div>
+<hr>
+<p class="lead">Some chatter here? Updated {{ last_updated|date:"N j, Y" }}</p>
+
+<div class="well">
+    <button type="button" id="tableswitcher" class="btn btn-primary btn-lg btn-block" style="margin-bottom:15px;">Show totals by country of origin</button>
+    <table class="table lead" id="stateTable">
+    <thead>
+        <tr>
+            <th>State</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for thing in sum_by_state %}
+        <tr>
+            <td{% if forloop.first %} style='border-top:none;'{% endif %}><a href='/refugees/state/{{ thing.stateabbr|lower }}'>{{ thing.stateabbr__statename }}</a>
+            </td>
+            <td{% if forloop.first %} style='border-top:none;'{% endif %}>{{ thing.num__sum|intcomma }}
+            </td>
+        </tr>{% endfor %}
+    </tbody>
+    </table>
+    
+    <table class="table lead" id="countryTable" style="display:none;">
+    <thead>
+        <tr>
+            <th>Country</th>
+            <th>Count</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for thing in sum_by_country %}
+        <tr>
+            <td{% if forloop.first %} style='border-top:none;'{% endif %}><a href='/refugees/country/{{ thing.countrycode }}'>{{ thing.countrycode__name }}</a>
+            </td>
+            <td{% if forloop.first %} style='border-top:none;'{% endif %}>{{ thing.num__sum|intcomma }}
+            </td>
+        </tr>{% endfor %}
+    </tbody>
+    </table>
+    
+</div>
+</div>
+</div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.min.js"></script>
+<script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.time.min.js"></script>
+<script src="http://www.dataomaha.com/media/scripts/tablesorter/jquery.tablesorter-2.10.8.js"></script>
+
+<script>
+
+var list_of_country_codes = [{% for thing in sum_by_country %}{{ thing.countrycode|add:"0" }}{% if not forloop.last %}, {% endif %}{% endfor %}];
+
+var map = $("#map");
+var targetWidth = $('#mapcontainer').width();
+map.attr("width", targetWidth);
+map.attr("height", targetWidth);
+
+var width = 960,
+    height = 960;
+
+var projection = d3.geo.mercator()
+    .scale((width + 1) / 2 / Math.PI)
+    .translate([width / 2, height / 2])
+    .precision(.1);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var graticule = d3.geo.graticule();
+var svg = d3.select("svg");
+
+d3.json("/static/gis/world-50m.json", function(error, world) {
+  if (error) throw error;
+  
+  svg.insert("path", ".graticule")
+      .datum(topojson.feature(world, world.objects.land))
+      .attr("class", "boundary")
+      .attr("d", path);
+
+  svg.selectAll(".country")
+      .data(topojson.feature(world, world.objects.countries).features)
+      .enter().insert("path", ".graticule")
+      .attr("class", "boundary")
+      .style("fill", function(d) { if ( _.contains(list_of_country_codes, d.id) ) { return "#21b750" } else if ( d.id === 840 ) { return "#fff" } else { return "#000" }; })
+      .attr("d", path);
+});
+
+//opposite col: 916749
+
+$("#tableswitcher").click(function() {
+    if ( $('#stateTable:visible').size() > 0 ){
+        $("#stateTable").hide();
+        $("#countryTable").show();
+        $(this).text("See totals by state");
+    } else {
+        $("#countryTable").hide();
+        $("#stateTable").show();
+        $(this).text("See totals by country of origin");
+    };
+});
+
+var getYear = function(y) {
+    return new Date(y, 0, 1).getTime();
+}
+
+var d1 = [{% for dude in sum_by_year %}[getYear({{dude.year}}), {{ dude.num__sum }}]{% if not forloop.last %},{% endif %}{% endfor %}];
+
+function addCommas(nStr)
+    {
+        nStr += '';
+        x = nStr.split('.');
+        x1 = x[0];
+        x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+            }
+        return x1 + x2;
+    }
+
+function formatter(val, axis) {
+    return addCommas(val);
+}
+
+var chartIt = function() {
+    $.plot($("#chart"), [d1], {
+        series: {
+            bars: {
+                show: true,
+				fill: true,
+				fillColor: '#c8d8e3',
+                align: "center"
+            },
+          color: "#fff"
+        },
+        bars: { barWidth: 60*60*24*365*1000 },
+        shadowSize: 0,
+        xaxis: {
+            min: (new Date(2001, 6, 0)).getTime(),
+            max: (new Date(2015, 6, 0)).getTime(),
+            mode: "time",
+            tickLength: 0,
+            ticks: 3
+        },
+        yaxis: {
+            tickFormatter: formatter
+        },        
+        grid: {
+            borderWidth: 0.5,
+            axisMargin: 0,
+            borderColor: '#eee',
+            color: '#eee',
+            labelMargin:15
+            }
+    });
+};
+
+$(document).ready(function() {
+    chartIt();
+    $("#stateTable").tablesorter();
+    $("#countryTable").tablesorter();
+});
+
+var updateLayout = _.debounce(function(e) {
+    chartIt();
+    var targetWidth = $('#mapcontainer').width();
+    $('#map').attr("width", targetWidth);
+    $('#map').attr("height", targetWidth);
+}, 500);
+
+window.addEventListener("resize", updateLayout, false);
+
+</script>
+{% endblock %}

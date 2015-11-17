@@ -1,0 +1,6 @@
+data/backup
+data/toupload
+data/rawgivers.txt
+data/alldonations.txt
+data/deduped.csv
+*.pyc

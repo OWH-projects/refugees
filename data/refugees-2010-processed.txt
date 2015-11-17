@@ -1,0 +1,2883 @@
+|Mobile|8|2010||004|AL
+|Mobile|1|2010||108|AL
+|Mobile|17|2010||192|AL
+|Russellville|2|2010||192|AL
+|Mobile|7|2010||180|AL
+|Mobile|4|2010||232|AL
+|Mobile|3|2010||231|AL
+|Pelham|2|2010||364|AL
+|Huntsville|1|2010||368|AL
+|Mobile|81|2010||368|AL
+|Prattville|1|2010||368|AL
+|Mobile|25|2010||706|AL
+|Mobile|1|2010||704|AL
+|Anchorage|42|2010||064|AK
+|Anchorage|4|2010||232|AK
+|Anchorage|13|2010||368|AK
+|Anchorage|7|2010||275|AK
+|Anchorage|5|2010||643|AK
+|Anchorage|29|2010||706|AK
+|Anchorage|3|2010||729|AK
+|Anchorage|4|2010||804|AK
+|Glendale|1|2010||004|AZ
+|Phoenix|29|2010||004|AZ
+|Scottsdale|6|2010||004|AZ
+|Tucson|4|2010||004|AZ
+|Glendale|5|2010||064|AZ
+|Phoenix|207|2010||064|AZ
+|Tucson|273|2010||064|AZ
+|Glendale|6|2010||104|AZ
+|Phoenix|567|2010||104|AZ
+|Scottsdale|7|2010||104|AZ
+|Tucson|31|2010||104|AZ
+|Phoenix|27|2010||108|AZ
+|Tucson|14|2010||108|AZ
+|Phoenix|3|2010||140|AZ
+|Tucson|6|2010||140|AZ
+|Phoenix|2|2010||148|AZ
+|Tucson|1|2010||148|AZ
+|Phoenix|2|2010||170|AZ
+|Phoenix|5|2010||178|AZ
+|Tucson|8|2010||178|AZ
+|Glendale|3|2010||192|AZ
+|Phoenix|84|2010||192|AZ
+|Tucson|14|2010||192|AZ
+|Peoria|2|2010||180|AZ
+|Phoenix|169|2010||180|AZ
+|Tucson|24|2010||180|AZ
+|Laveen|3|2010||232|AZ
+|Phoenix|104|2010||232|AZ
+|Tucson|44|2010||232|AZ
+|Glendale|1|2010||231|AZ
+|Phoenix|19|2010||231|AZ
+|Tucson|8|2010||231|AZ
+|Phoenix|1|2010||356|AZ
+|Chandler|2|2010||364|AZ
+|Gilbert|2|2010||364|AZ
+|Glendale|1|2010||364|AZ
+|Mesa|14|2010||364|AZ
+|Peoria|2|2010||364|AZ
+|Phoenix|66|2010||364|AZ
+|Scottsdale|7|2010||364|AZ
+|Surprise|1|2010||364|AZ
+|Tempe|4|2010||364|AZ
+|Tucson|8|2010||364|AZ
+|Anthem|16|2010||368|AZ
+|Avondale|6|2010||368|AZ
+|Buckeye|4|2010||368|AZ
+|Bullhead City|1|2010||368|AZ
+|Chandler|8|2010||368|AZ
+|Gilbert|37|2010||368|AZ
+|Glendale|94|2010||368|AZ
+|Kingman|4|2010||368|AZ
+|Laveen|3|2010||368|AZ
+|Maricopa|1|2010||368|AZ
+|Mesa|14|2010||368|AZ
+|Peoria|41|2010||368|AZ
+|Phoenix|578|2010||368|AZ
+|Queen Creek|9|2010||368|AZ
+|Scottsdale|11|2010||368|AZ
+|Sierra Vista|1|2010||368|AZ
+|Surprise|14|2010||368|AZ
+|Tempe|12|2010||368|AZ
+|Tucson|181|2010||368|AZ
+|Youngtown|8|2010||368|AZ
+|Phoenix|1|2010||408|AZ
+|Tucson|9|2010||414|AZ
+|Phoenix|4|2010||430|AZ
+|Phoenix|8|2010||275|AZ
+|Tucson|37|2010||275|AZ
+|Phoenix|13|2010||646|AZ
+|Tucson|9|2010||646|AZ
+|Phoenix|150|2010||706|AZ
+|Tucson|63|2010||706|AZ
+|Phoenix|3|2010||144|AZ
+|Phoenix|9|2010||729|AZ
+|Tucson|5|2010||729|AZ
+|Phoenix|1|2010||768|AZ
+|Phoenix|1|2010||795|AZ
+|Phoenix|13|2010||860|AZ
+|Conway|5|2010||104|AR
+|Fayetteville|1|2010||364|AR
+|Jonesboro|2|2010||368|AR
+|Little Rock|8|2010||368|AR
+|Springdale|1|2010||368|AR
+|Alameda|3|2010||004|CA
+|Anaheim|8|2010||004|CA
+|Carmichael|1|2010||004|CA
+|Danville|5|2010||004|CA
+|El Cajon|6|2010||004|CA
+|Hayward|6|2010||004|CA
+|Livermore|11|2010||004|CA
+|Newark|5|2010||004|CA
+|Sacramento|21|2010||004|CA
+|San Diego|14|2010||004|CA
+|San Jose|12|2010||004|CA
+|San Marcos|4|2010||004|CA
+|Tracy|2|2010||004|CA
+|North Hollywood|1|2010||051|CA
+|Rancho Cordova|3|2010||051|CA
+|Sacramento|4|2010||031|CA
+|Carmichael|5|2010||112|CA
+|Fair Oaks|6|2010||112|CA
+|Los Angeles|1|2010||112|CA
+|Rancho Cordova|5|2010||112|CA
+|Roseville|1|2010||112|CA
+|Sacramento|5|2010||112|CA
+|Tarzana|2|2010||112|CA
+|Alameda|14|2010||064|CA
+|Carmichael|4|2010||064|CA
+|Fullerton|2|2010||064|CA
+|Oakland|49|2010||064|CA
+|Sacramento|52|2010||064|CA
+|San Diego|22|2010||064|CA
+|San Francisco|16|2010||064|CA
+|San Jose|4|2010||064|CA
+|Anaheim|21|2010||104|CA
+|Bakersfield|10|2010||104|CA
+|Covina|1|2010||104|CA
+|El Cajon|24|2010||104|CA
+|Fairfield|1|2010||104|CA
+|Fullerton|3|2010||104|CA
+|Huntington Beach|1|2010||104|CA
+|Loma Linda|2|2010||104|CA
+|Los Angeles|1|2010||104|CA
+|Newark|2|2010||104|CA
+|Oakland|20|2010||104|CA
+|Parlier|1|2010||104|CA
+|Sacramento|1|2010||104|CA
+|Salinas|3|2010||104|CA
+|San Diego|267|2010||104|CA
+|San Francisco|29|2010||104|CA
+|San Jose|44|2010||104|CA
+|Santa Clara|1|2010||104|CA
+|Sunnyvale|1|2010||104|CA
+|West Covina|3|2010||104|CA
+|San Diego|10|2010||108|CA
+|San Jose|1|2010||108|CA
+|San Diego|4|2010||148|CA
+|Alhambra|1|2010||156|CA
+|Baldwin Park|3|2010||156|CA
+|San Diego|3|2010||156|CA
+|San Jose|4|2010||156|CA
+|San Diego|4|2010||170|CA
+|San Diego|4|2010||178|CA
+|Carmichael|1|2010||192|CA
+|Downey|8|2010||192|CA
+|Hayward|2|2010||192|CA
+|Inglewood|2|2010||192|CA
+|Oakland|4|2010||192|CA
+|Riverside|1|2010||192|CA
+|San Diego|4|2010||192|CA
+|Torrance|1|2010||192|CA
+|Oakland|8|2010||180|CA
+|Sacramento|1|2010||180|CA
+|San Diego|39|2010||180|CA
+|San Jose|35|2010||180|CA
+|Escondido|3|2010||818|CA
+|Bellflower|4|2010||232|CA
+|Berkeley|1|2010||232|CA
+|Corte Madera|1|2010||232|CA
+|Fremont|2|2010||232|CA
+|Glendale|6|2010||232|CA
+|Grover Beach|2|2010||232|CA
+|Hawthorne|1|2010||232|CA
+|La Mesa|3|2010||232|CA
+|Los Angeles|3|2010||232|CA
+|Modesto|5|2010||232|CA
+|Oakland|8|2010||232|CA
+|Sacramento|31|2010||232|CA
+|San Diego|15|2010||232|CA
+|San Francisco|25|2010||232|CA
+|San Jose|31|2010||232|CA
+|San Leandro|2|2010||232|CA
+|Santa Clara|9|2010||232|CA
+|Santa Rosa|6|2010||232|CA
+|Spring Valley|1|2010||232|CA
+|Sun Valley|1|2010||232|CA
+|Fresno|2|2010||231|CA
+|Saint Clement|1|2010||231|CA
+|San Diego|10|2010||231|CA
+|San Francisco|2|2010||231|CA
+|San Jose|8|2010||231|CA
+|Santee|2|2010||231|CA
+|Aliso Viejo|1|2010||364|CA
+|Antelope|1|2010||364|CA
+|Arcadia|4|2010||364|CA
+|Bakersfield|1|2010||364|CA
+|Bellflower|2|2010||364|CA
+|Burbank|177|2010||364|CA
+|Campbell|12|2010||364|CA
+|Canoga Park|19|2010||364|CA
+|Canyon Country|4|2010||364|CA
+|Cerritos|1|2010||364|CA
+|Chatsworth|10|2010||364|CA
+|Citrus Heights|3|2010||364|CA
+|Corona|3|2010||364|CA
+|Corona Del Mar|1|2010||364|CA
+|Downey|2|2010||364|CA
+|Dublin|4|2010||364|CA
+|El Cajon|3|2010||364|CA
+|El Cerrito|2|2010||364|CA
+|El Dorado Hills|3|2010||364|CA
+|Encino|22|2010||364|CA
+|Escondido|7|2010||364|CA
+|Fair Oaks|5|2010||364|CA
+|Fairfield|1|2010||364|CA
+|Folsom|3|2010||364|CA
+|Fremont|2|2010||364|CA
+|Fresno|9|2010||364|CA
+|Fullerton|2|2010||364|CA
+|Glendale|710|2010||364|CA
+|Granada Hills|15|2010||364|CA
+|Huntington Beach|7|2010||364|CA
+|Irvine|27|2010||364|CA
+|La Canada|4|2010||364|CA
+|La Crescenta|42|2010||364|CA
+|La Habra|2|2010||364|CA
+|Laguna Niguel|2|2010||364|CA
+|Lake Forest|1|2010||364|CA
+|Lake View Terrace|1|2010||364|CA
+|Lawndale|3|2010||364|CA
+|Lomita|1|2010||364|CA
+|Long Beach|3|2010||364|CA
+|Los Angeles|372|2010||364|CA
+|Los Gatos|94|2010||364|CA
+|Manteca|1|2010||364|CA
+|Mission Viejo|5|2010||364|CA
+|Modesto|15|2010||364|CA
+|Montrose|4|2010||364|CA
+|North Hills|1|2010||364|CA
+|North Hollywood|10|2010||364|CA
+|Northridge|20|2010||364|CA
+|Norwalk|5|2010||364|CA
+|Palos Verdes Peninsula|2|2010||364|CA
+|Pasadena|1|2010||364|CA
+|Pittsburg|1|2010||364|CA
+|Pleasant Hill|8|2010||364|CA
+|Reseda|23|2010||364|CA
+|Sacramento|12|2010||364|CA
+|San Diego|31|2010||364|CA
+|San Francisco|2|2010||364|CA
+|San Jose|54|2010||364|CA
+|San Pedro|8|2010||364|CA
+|Santa Ana|3|2010||364|CA
+|Santa Barbara|3|2010||364|CA
+|Santa Clarita|2|2010||364|CA
+|Santa Monica|1|2010||364|CA
+|Sepulveda|2|2010||364|CA
+|Studio City|1|2010||364|CA
+|Sun Valley|12|2010||364|CA
+|Sunland|20|2010||364|CA
+|Sunnyvale|2|2010||364|CA
+|Sylmar|6|2010||364|CA
+|Tarzana|21|2010||364|CA
+|Toluca Lake|4|2010||364|CA
+|Torrance|4|2010||364|CA
+|Tujunga|62|2010||364|CA
+|Turlock|112|2010||364|CA
+|Tustin|1|2010||364|CA
+|Valencia|1|2010||364|CA
+|Van Nuys|12|2010||364|CA
+|Walnut Creek|24|2010||364|CA
+|West Hills|6|2010||364|CA
+|West Hollywood|1|2010||364|CA
+|Winnetka|7|2010||364|CA
+|Woodland Hills|14|2010||364|CA
+|Yorba Linda|7|2010||364|CA
+|Agoura Hills|1|2010||368|CA
+|Alameda|3|2010||368|CA
+|Alpine|3|2010||368|CA
+|Anaheim|86|2010||368|CA
+|Antioch|5|2010||368|CA
+|Azusa|4|2010||368|CA
+|Bakersfield|8|2010||368|CA
+|Barstow|2|2010||368|CA
+|Berkeley|2|2010||368|CA
+|Bonita|22|2010||368|CA
+|Brentwood|2|2010||368|CA
+|Burbank|9|2010||368|CA
+|Camarillo|7|2010||368|CA
+|Carlsbad|8|2010||368|CA
+|Carmichael|52|2010||368|CA
+|Cathedral City|6|2010||368|CA
+|Ceres|9|2010||368|CA
+|Chino|1|2010||368|CA
+|Chula Vista|30|2010||368|CA
+|Clovis|4|2010||368|CA
+|Concord|7|2010||368|CA
+|Costa Mesa|6|2010||368|CA
+|Covina|1|2010||368|CA
+|Culver City|5|2010||368|CA
+|Cypress|10|2010||368|CA
+|Daly City|4|2010||368|CA
+|Dana Point|1|2010||368|CA
+|Davis|6|2010||368|CA
+|Diamond Bar|1|2010||368|CA
+|Dublin|3|2010||368|CA
+|El Cajon|1811|2010||368|CA
+|El Cerrito|2|2010||368|CA
+|El Dorado Hills|11|2010||368|CA
+|Escondido|9|2010||368|CA
+|Folsom|5|2010||368|CA
+|Fontana|1|2010||368|CA
+|Fremont|11|2010||368|CA
+|Fresno|12|2010||368|CA
+|Garden Grove|11|2010||368|CA
+|Glendale|183|2010||368|CA
+|Glendora|4|2010||368|CA
+|Gustine|1|2010||368|CA
+|Hawthorne|3|2010||368|CA
+|Hayward|1|2010||368|CA
+|Hollywood|2|2010||368|CA
+|Huntington Beach|9|2010||368|CA
+|Inglewood|3|2010||368|CA
+|Irvine|13|2010||368|CA
+|Jamul|7|2010||368|CA
+|Keyes|1|2010||368|CA
+|La Crescenta|4|2010||368|CA
+|La Mesa|60|2010||368|CA
+|La Palma|7|2010||368|CA
+|La Quinta|1|2010||368|CA
+|Ladera Ranch|2|2010||368|CA
+|Lafayette|3|2010||368|CA
+|Lakeside|10|2010||368|CA
+|Long Beach|10|2010||368|CA
+|Los Angeles|37|2010||368|CA
+|Los Gatos|5|2010||368|CA
+|Marina|9|2010||368|CA
+|Marina Del Rey|6|2010||368|CA
+|Milpitas|3|2010||368|CA
+|Mission Viejo|5|2010||368|CA
+|Modesto|164|2010||368|CA
+|Monrovia|1|2010||368|CA
+|Monterey|4|2010||368|CA
+|Moraga|4|2010||368|CA
+|Moreno Valley|15|2010||368|CA
+|Murrieta|9|2010||368|CA
+|Newport Beach|4|2010||368|CA
+|North Hills|6|2010||368|CA
+|North Hollywood|10|2010||368|CA
+|Northridge|8|2010||368|CA
+|Oakland|7|2010||368|CA
+|Oceanside|5|2010||368|CA
+|Orange|7|2010||368|CA
+|Orinda|3|2010||368|CA
+|Palm Desert|3|2010||368|CA
+|Palmdale|1|2010||368|CA
+|Panorama City|3|2010||368|CA
+|Pasadena|7|2010||368|CA
+|Poway|21|2010||368|CA
+|Rancho Cordova|1|2010||368|CA
+|Rancho Cucamonga|4|2010||368|CA
+|Rancho Santa Margarita|9|2010||368|CA
+|Redlands|1|2010||368|CA
+|Reseda|6|2010||368|CA
+|Ripon|4|2010||368|CA
+|Riverbank|4|2010||368|CA
+|Riverside|3|2010||368|CA
+|Sacramento|222|2010||368|CA
+|San Bernardino|9|2010||368|CA
+|San Diego|556|2010||368|CA
+|San Francisco|31|2010||368|CA
+|San Jose|82|2010||368|CA
+|San Marcos|25|2010||368|CA
+|San Mateo|6|2010||368|CA
+|Santa Ana|3|2010||368|CA
+|Santa Clara|25|2010||368|CA
+|Santee|15|2010||368|CA
+|Spring Valley|134|2010||368|CA
+|Stockton|4|2010||368|CA
+|Sun Valley|1|2010||368|CA
+|Sunnyvale|4|2010||368|CA
+|Sylmar|7|2010||368|CA
+|Tarzana|3|2010||368|CA
+|Temecula|5|2010||368|CA
+|Tracy|4|2010||368|CA
+|Tujunga|10|2010||368|CA
+|Turlock|36|2010||368|CA
+|Tustin|13|2010||368|CA
+|Union City|4|2010||368|CA
+|Upland|2|2010||368|CA
+|Van Nuys|4|2010||368|CA
+|Vista|23|2010||368|CA
+|Walnut Creek|9|2010||368|CA
+|West Covina|2|2010||368|CA
+|Westlake Village|4|2010||368|CA
+|Yorba Linda|3|2010||368|CA
+|Menlo Park|2|2010||398|CA
+|Sacramento|2|2010||398|CA
+|San Francisco|3|2010||398|CA
+|San Jose|1|2010||408|CA
+|Chico|9|2010||418|CA
+|Clovis|1|2010||418|CA
+|Elk Grove|7|2010||418|CA
+|Fresno|15|2010||418|CA
+|Long Beach|15|2010||418|CA
+|Visalia|4|2010||418|CA
+|Sacramento|1|2010||422|CA
+|Loma Linda|5|2010||430|CA
+|Modesto|1|2010||430|CA
+|Antelope|4|2010||498|CA
+|Citrus Heights|2|2010||498|CA
+|Folsom|3|2010||498|CA
+|North Highlands|7|2010||498|CA
+|Rancho Cordova|24|2010||498|CA
+|Sacramento|16|2010||498|CA
+|El Cajon|28|2010||275|CA
+|El Segundo|6|2010||275|CA
+|Los Angeles|12|2010||275|CA
+|Sacramento|41|2010||275|CA
+|San Diego|29|2010||275|CA
+|Banning|2|2010||643|CA
+|Beverly Hills|2|2010||643|CA
+|Encino|6|2010||643|CA
+|Fresno|1|2010||643|CA
+|Highlands|6|2010||643|CA
+|Los Angeles|6|2010||643|CA
+|North Highlands|3|2010||643|CA
+|Rancho Cordova|4|2010||643|CA
+|Rio Linda|5|2010||643|CA
+|Sacramento|9|2010||643|CA
+|San Jose|2|2010||643|CA
+|Walnut Creek|1|2010||643|CA
+|West Sacramento|7|2010||643|CA
+|San Diego|1|2010||646|CA
+|San Jose|1|2010||646|CA
+|Yorba Linda|3|2010||646|CA
+|Hayward|4|2010||694|CA
+|San Francisco|1|2010||694|CA
+|Anaheim|7|2010||706|CA
+|Inglewood|1|2010||706|CA
+|Lemon Grove|6|2010||706|CA
+|Sacramento|1|2010||706|CA
+|San Diego|129|2010||706|CA
+|San Jose|3|2010||706|CA
+|Santa Clara|1|2010||706|CA
+|Spring Valley|5|2010||706|CA
+|Glendale|1|2010||144|CA
+|Oakland|12|2010||144|CA
+|San Francisco|30|2010||144|CA
+|San Diego|15|2010||729|CA
+|Anaheim|5|2010||760|CA
+|San Diego|4|2010||760|CA
+|Los Angeles|3|2010||762|CA
+|San Diego|8|2010||800|CA
+|San Francisco|2|2010||800|CA
+|Antelope|10|2010||804|CA
+|Citrus Heights|11|2010||804|CA
+|Fair Oaks|3|2010||804|CA
+|Los Angeles|2|2010||804|CA
+|North Highlands|7|2010||804|CA
+|Rancho Cordova|5|2010||804|CA
+|Rocklin|4|2010||804|CA
+|Sacramento|40|2010||804|CA
+|San Diego|2|2010||804|CA
+|San Francisco|3|2010||804|CA
+|San Jose|2|2010||804|CA
+|Walnut Creek|5|2010||804|CA
+|West Sacramento|8|2010||804|CA
+|Lemon Grove|9|2010||860|CA
+|Los Angeles|7|2010||860|CA
+|Oakland|6|2010||860|CA
+|Panorama City|1|2010||860|CA
+|San Diego|11|2010||860|CA
+|Sherman Oaks|1|2010||860|CA
+|West Sacramento|7|2010||860|CA
+|Alhambra|3|2010||704|CA
+|Anaheim|9|2010||704|CA
+|Garden Grove|4|2010||704|CA
+|Midway City|5|2010||704|CA
+|Oakland|3|2010||704|CA
+|San Diego|3|2010||704|CA
+|San Jose|13|2010||704|CA
+|Stanton|4|2010||704|CA
+|Tustin|3|2010||704|CA
+|Westminster|4|2010||704|CA
+|Whittier|2|2010||704|CA
+|Commerce City|1|2010||004|CO
+|Denver|1|2010||004|CO
+|Thornton|2|2010||004|CO
+|Aurora|44|2010||064|CO
+|Colorado Springs|51|2010||064|CO
+|Denver|409|2010||064|CO
+|Aurora|15|2010||104|CO
+|Colorado Springs|15|2010||104|CO
+|Denver|425|2010||104|CO
+|Greeley|17|2010||104|CO
+|Littleton|6|2010||104|CO
+|Denver|4|2010||108|CO
+|Fort Morgan|2|2010||140|CO
+|Denver|1|2010||156|CO
+|Colorado Springs|2|2010||178|CO
+|Denver|10|2010||178|CO
+|Colorado Springs|11|2010||192|CO
+|Denver|3|2010||192|CO
+|Holyoke|2|2010||192|CO
+|Colorado Springs|6|2010||180|CO
+|Denver|223|2010||180|CO
+|Greeley|10|2010||180|CO
+|Aurora|4|2010||232|CO
+|Denver|103|2010||232|CO
+|Glendale|1|2010||232|CO
+|Greeley|6|2010||232|CO
+|Wheat Ridge|1|2010||232|CO
+|Aurora|2|2010||231|CO
+|Denver|39|2010||231|CO
+|Colorado Springs|4|2010||364|CO
+|Denver|12|2010||364|CO
+|Aurora|4|2010||368|CO
+|Boulder|2|2010||368|CO
+|Colorado Springs|27|2010||368|CO
+|Denver|216|2010||368|CO
+|Eagle|1|2010||368|CO
+|Edgewater|5|2010||368|CO
+|Englewood|9|2010||368|CO
+|Greeley|5|2010||368|CO
+|Lakewood|10|2010||368|CO
+|Longmont|1|2010||368|CO
+|Denver|2|2010||408|CO
+|Denver|1|2010||430|CO
+|Denver|14|2010||478|CO
+|Denver|4|2010||498|CO
+|Denver|15|2010||275|CO
+|Arvada|1|2010||643|CO
+|Denver|8|2010||643|CO
+|Aurora|1|2010||646|CO
+|Denver|11|2010||646|CO
+|Denver|1|2010||694|CO
+|Aurora|5|2010||706|CO
+|Denver|97|2010||706|CO
+|Greeley|16|2010||706|CO
+|Denver|3|2010||144|CO
+|Aurora|3|2010||729|CO
+|Denver|14|2010||729|CO
+|Denver|1|2010||800|CO
+|Commerce City|2|2010||804|CO
+|Denver|1|2010||804|CO
+|Denver|2|2010||860|CO
+|Broomfield|3|2010||704|CO
+|Denver|8|2010||704|CO
+|Hamden|7|2010||004|CT
+|New Haven|16|2010||004|CT
+|New Haven|2|2010||012|CT
+|Bridgeport|46|2010||064|CT
+|Hartford|39|2010||064|CT
+|New Haven|9|2010||064|CT
+|Hartford|144|2010||104|CT
+|New Haven|4|2010||108|CT
+|Hartford|5|2010||192|CT
+|Manchester|2|2010||192|CT
+|New Haven|9|2010||192|CT
+|Tariffville|3|2010||192|CT
+|New Haven|14|2010||180|CT
+|Bridgeport|6|2010||232|CT
+|Hartford|1|2010||232|CT
+|New Haven|2|2010||232|CT
+|Stamford|3|2010||232|CT
+|New Haven|4|2010||364|CT
+|Rocky Hill|1|2010||364|CT
+|Danielson|3|2010||368|CT
+|East Haven|4|2010||368|CT
+|Hartford|41|2010||368|CT
+|New Britain|1|2010||368|CT
+|New Fairfield|1|2010||368|CT
+|New Haven|93|2010||368|CT
+|South Windsor|3|2010||368|CT
+|Hartford|2|2010||430|CT
+|New Haven|14|2010||275|CT
+|Hartford|1|2010||694|CT
+|Hartford|27|2010||706|CT
+|Newington|1|2010||706|CT
+|Hartford|1|2010||144|CT
+|New Haven|1|2010||144|CT
+|New Haven|4|2010||729|CT
+|Georgetown|8|2010||104|DE
+|Middletown|1|2010||364|DE
+|Bear|3|2010||368|DE
+|Washington|9|2010||232|DC
+|Washington|6|2010||231|DC
+|Washington|2|2010||364|DC
+|Washington|23|2010||368|DC
+|Jacksonville|4|2010||004|FL
+|Tampa|4|2010||004|FL
+|Jacksonville|113|2010||064|FL
+|Miami|4|2010||064|FL
+|Tampa|15|2010||064|FL
+|Apopka|3|2010||104|FL
+|Davie|3|2010||104|FL
+|Fort Lauderdale|3|2010||104|FL
+|Fort Myers|4|2010||104|FL
+|Hollywood|6|2010||104|FL
+|Jacksonville|429|2010||104|FL
+|Lake Worth|1|2010||104|FL
+|Miami|8|2010||104|FL
+|Miramar|8|2010||104|FL
+|North Palm Beach|4|2010||104|FL
+|Orlando|34|2010||104|FL
+|Tampa|161|2010||104|FL
+|Weston|1|2010||104|FL
+|Jacksonville|15|2010||108|FL
+|Kissimmee|1|2010||170|FL
+|Miramar|2|2010||170|FL
+|Oldsmar|4|2010||170|FL
+|Sarasota|1|2010||170|FL
+|Tampa|11|2010||170|FL
+|Altamonte Springs|5|2010||192|FL
+|Belle Glade|6|2010||192|FL
+|Bonita Springs|9|2010||192|FL
+|Boynton Beach|2|2010||192|FL
+|Cape Coral|31|2010||192|FL
+|Clearwater|4|2010||192|FL
+|Clewiston|4|2010||192|FL
+|Cooper City|5|2010||192|FL
+|Coral Gables|12|2010||192|FL
+|Cutler Bay|12|2010||192|FL
+|Davie|10|2010||192|FL
+|Deltona|8|2010||192|FL
+|Doral|12|2010||192|FL
+|Fort Lauderdale|45|2010||192|FL
+|Green Cove Springs|1|2010||192|FL
+|Greenacres|6|2010||192|FL
+|Greenacres City|3|2010||192|FL
+|Haverhill|3|2010||192|FL
+|Hialeah|458|2010||192|FL
+|Hialeah Gardens|14|2010||192|FL
+|Hollywood|13|2010||192|FL
+|Homestead|49|2010||192|FL
+|Hudson|1|2010||192|FL
+|Jacksonville|140|2010||192|FL
+|Kendall|3|2010||192|FL
+|Key Largo|1|2010||192|FL
+|Kissimmee|11|2010||192|FL
+|La Belle|3|2010||192|FL
+|Lake Worth|16|2010||192|FL
+|Lakeland|10|2010||192|FL
+|Lehigh Acres|13|2010||192|FL
+|Marathon|2|2010||192|FL
+|Miami|1151|2010||192|FL
+|Miami Beach|11|2010||192|FL
+|Miami Gardens|50|2010||192|FL
+|Miami Lakes|11|2010||192|FL
+|Miami Springs|8|2010||192|FL
+|Miramar|13|2010||192|FL
+|Naples|60|2010||192|FL
+|North Miami|4|2010||192|FL
+|Ocoee|4|2010||192|FL
+|Oldsmar|9|2010||192|FL
+|Opa-Locka|30|2010||192|FL
+|Orange Park|4|2010||192|FL
+|Orlando|78|2010||192|FL
+|Palm Bay|4|2010||192|FL
+|Palm Coast|6|2010||192|FL
+|Palm Springs|11|2010||192|FL
+|Pembroke Pines|11|2010||192|FL
+|Plant City|3|2010||192|FL
+|Port Richey|13|2010||192|FL
+|Port Saint Lucie|7|2010||192|FL
+|Safety Harbor|1|2010||192|FL
+|Saint Petersburg|42|2010||192|FL
+|Sarasota|7|2010||192|FL
+|Spring Hill|1|2010||192|FL
+|Tamarac|4|2010||192|FL
+|Tampa|381|2010||192|FL
+|West Palm Beach|59|2010||192|FL
+|West Park|3|2010||192|FL
+|Doral|4|2010||180|FL
+|Jacksonville|32|2010||180|FL
+|Orlando|30|2010||180|FL
+|Doral|1|2010||232|FL
+|Jacksonville|32|2010||232|FL
+|Oldsmar|2|2010||232|FL
+|Orlando|16|2010||232|FL
+|Tampa|12|2010||232|FL
+|Jacksonville|10|2010||231|FL
+|Tampa|6|2010||231|FL
+|Port Saint Lucie|4|2010||332|FL
+|Tampa|9|2010||332|FL
+|Clearwater|5|2010||364|FL
+|Jacksonville|13|2010||364|FL
+|Lake Worth|1|2010||364|FL
+|Orlando|1|2010||364|FL
+|Sanford|3|2010||364|FL
+|Tampa|1|2010||364|FL
+|Coral Springs|1|2010||368|FL
+|Davie|5|2010||368|FL
+|Doral|1|2010||368|FL
+|Fort Lauderdale|2|2010||368|FL
+|Jacksonville|152|2010||368|FL
+|Kissimmee|2|2010||368|FL
+|Miami|4|2010||368|FL
+|Oldsmar|12|2010||368|FL
+|Orlando|65|2010||368|FL
+|Palm Springs|64|2010||368|FL
+|Panama City|3|2010||368|FL
+|Parkland|10|2010||368|FL
+|Plantation|4|2010||368|FL
+|Port Saint Lucie|1|2010||368|FL
+|Saint Johns|2|2010||368|FL
+|Tampa|67|2010||368|FL
+|Fort Walton Beach|10|2010||398|FL
+|Jacksonville|1|2010||430|FL
+|Jacksonville|1|2010||566|FL
+|Lakeland|7|2010||275|FL
+|Orlando|6|2010||646|FL
+|Tampa|3|2010||706|FL
+|Jacksonville|6|2010||729|FL
+|Orlando|5|2010||729|FL
+|Tampa|4|2010||729|FL
+|West Palm Beach|3|2010||729|FL
+|Pensacola|1|2010||760|FL
+|Jacksonville|1|2010||768|FL
+|Bal Harbour|2|2010||804|FL
+|Jacksonville|5|2010||804|FL
+|North Port|1|2010||804|FL
+|Jacksonville|4|2010||704|FL
+|Miami|4|2010||704|FL
+|Tallahassee|4|2010||704|FL
+|Tampa|2|2010||704|FL
+|Atlanta|21|2010||004|GA
+|Decatur|22|2010||004|GA
+|Lawrenceville|1|2010||004|GA
+|Snellville|7|2010||004|GA
+|Stone Mountain|16|2010||004|GA
+|Alpharetta|3|2010||064|GA
+|Atlanta|191|2010||064|GA
+|Avondale Estates|3|2010||064|GA
+|Clarkston|193|2010||064|GA
+|Decatur|230|2010||064|GA
+|Doraville|10|2010||064|GA
+|Lilburn|5|2010||064|GA
+|Stone Mountain|91|2010||064|GA
+|Alpharetta|5|2010||104|GA
+|Atlanta|276|2010||104|GA
+|Avondale|1|2010||104|GA
+|Avondale Estates|5|2010||104|GA
+|Clarkston|77|2010||104|GA
+|Decatur|496|2010||104|GA
+|Duluth|5|2010||104|GA
+|Stone Mountain|158|2010||104|GA
+|Suwanee|3|2010||104|GA
+|Tucker|6|2010||104|GA
+|Atlanta|2|2010||108|GA
+|Decatur|7|2010||108|GA
+|Stone Mountain|2|2010||108|GA
+|Decatur|14|2010||140|GA
+|Atlanta|1|2010||148|GA
+|Decatur|18|2010||170|GA
+|Atlanta|31|2010||192|GA
+|Conyers|2|2010||192|GA
+|Cumming|3|2010||192|GA
+|Decatur|18|2010||192|GA
+|Lawrenceville|17|2010||192|GA
+|Lilburn|2|2010||192|GA
+|Moultrie|7|2010||192|GA
+|Stone Mountain|4|2010||192|GA
+|Atlanta|32|2010||180|GA
+|Clarkston|6|2010||180|GA
+|Decatur|59|2010||180|GA
+|Stone Mountain|72|2010||180|GA
+|Atlanta|53|2010||232|GA
+|Braselton|1|2010||232|GA
+|Clarkston|11|2010||232|GA
+|Decatur|63|2010||232|GA
+|Lilburn|2|2010||232|GA
+|Norcross|3|2010||232|GA
+|Stone Mountain|51|2010||232|GA
+|Atlanta|7|2010||231|GA
+|Decatur|47|2010||231|GA
+|Stone Mountain|12|2010||231|GA
+|Alpharetta|1|2010||364|GA
+|Atlanta|23|2010||364|GA
+|Decatur|18|2010||364|GA
+|Lilburn|1|2010||364|GA
+|Woodstock|3|2010||364|GA
+|Acworth|4|2010||368|GA
+|Alpharetta|4|2010||368|GA
+|Athens|5|2010||368|GA
+|Atlanta|77|2010||368|GA
+|Braselton|7|2010||368|GA
+|Chatsworth|4|2010||368|GA
+|Clarkston|26|2010||368|GA
+|Columbus|1|2010||368|GA
+|Decatur|170|2010||368|GA
+|Duluth|7|2010||368|GA
+|Fort Oglethorpe|7|2010||368|GA
+|Lawrenceville|6|2010||368|GA
+|Lithonia|3|2010||368|GA
+|Marietta|5|2010||368|GA
+|Norcross|5|2010||368|GA
+|Roswell|5|2010||368|GA
+|Scottdale|8|2010||368|GA
+|Stone Mountain|54|2010||368|GA
+|Warner Robins|6|2010||368|GA
+|Woodstock|4|2010||368|GA
+|Decatur|1|2010||408|GA
+|Stone Mountain|7|2010||418|GA
+|Atlanta|4|2010||430|GA
+|Clarkston|1|2010||430|GA
+|Decatur|1|2010||430|GA
+|Bethlehem|5|2010||498|GA
+|Lawrenceville|7|2010||498|GA
+|Decatur|6|2010||586|GA
+|Atlanta|29|2010||275|GA
+|Clarkston|15|2010||275|GA
+|Dalton|26|2010||275|GA
+|Decatur|31|2010||275|GA
+|Stone Mountain|4|2010||275|GA
+|Atlanta|2|2010||643|GA
+|Stone Mountain|1|2010||643|GA
+|Decatur|4|2010||646|GA
+|Stone Mountain|7|2010||646|GA
+|Atlanta|72|2010||706|GA
+|Clarkston|12|2010||706|GA
+|Decatur|72|2010||706|GA
+|Lawrenceville|1|2010||706|GA
+|Stone Mountain|73|2010||706|GA
+|Atlanta|9|2010||144|GA
+|Clarkston|3|2010||144|GA
+|Decatur|10|2010||144|GA
+|Stone Mountain|7|2010||144|GA
+|Atlanta|14|2010||729|GA
+|Clarkston|1|2010||729|GA
+|Decatur|4|2010||729|GA
+|Stone Mountain|11|2010||729|GA
+|Clarkston|1|2010||800|GA
+|Decatur|1|2010||800|GA
+|Decatur|3|2010||804|GA
+|Lawrenceville|1|2010||804|GA
+|Woodstock|1|2010||804|GA
+|Alpharetta|2|2010||860|GA
+|Stone Mountain|4|2010||704|GA
+|Boise|31|2010||004|ID
+|Twin Falls|14|2010||004|ID
+|Boise|132|2010||064|ID
+|Twin Falls|113|2010||064|ID
+|Boise|139|2010||104|ID
+|Twin Falls|113|2010||104|ID
+|Boise|7|2010||108|ID
+|Twin Falls|6|2010||108|ID
+|Boise|1|2010||140|ID
+|Boise|1|2010||170|ID
+|Boise|2|2010||192|ID
+|Boise|84|2010||180|ID
+|Boise|15|2010||232|ID
+|Twin Falls|31|2010||232|ID
+|Boise|4|2010||624|ID
+|Boise|6|2010||364|ID
+|Twin Falls|18|2010||364|ID
+|Boise|73|2010||368|ID
+|Boise City|1|2010||368|ID
+|Kooskia|1|2010||368|ID
+|Meridian|7|2010||368|ID
+|Twin Falls|34|2010||368|ID
+|Boise|8|2010||586|ID
+|Boise|38|2010||275|ID
+|Boise|8|2010||646|ID
+|Boise|53|2010||706|ID
+|Boise|4|2010||729|ID
+|Boise|25|2010||860|ID
+|Chicago|2|2010||004|IL
+|Wheaton|1|2010||004|IL
+|Glen Ellyn|1|2010||204|IL
+|Aurora|44|2010||064|IL
+|Chicago|219|2010||064|IL
+|Evanston|3|2010||064|IL
+|Glen Ellyn|16|2010||064|IL
+|Glendale Heights|9|2010||064|IL
+|Moline|27|2010||064|IL
+|Rock Island|27|2010||064|IL
+|Wheaton|46|2010||064|IL
+|Aurora|41|2010||104|IL
+|Chicago|140|2010||104|IL
+|Clarendon Hills|3|2010||104|IL
+|Glen Ellyn|21|2010||104|IL
+|Moline|12|2010||104|IL
+|Rock Island|12|2010||104|IL
+|Rockford|151|2010||104|IL
+|Wheaton|74|2010||104|IL
+|Chicago|1|2010||108|IL
+|Chicago|5|2010||178|IL
+|Chicago|20|2010||192|IL
+|Rockford|2|2010||192|IL
+|West Chicago|3|2010||192|IL
+|Wheaton|9|2010||192|IL
+|Aurora|14|2010||180|IL
+|Chicago|9|2010||180|IL
+|Du Page|6|2010||180|IL
+|Moline|17|2010||180|IL
+|Rock Island|13|2010||180|IL
+|Rockford|22|2010||180|IL
+|Wheaton|9|2010||180|IL
+|Aurora|3|2010||232|IL
+|Chicago|15|2010||232|IL
+|Moline|1|2010||232|IL
+|Wheaton|14|2010||232|IL
+|Chicago|11|2010||231|IL
+|Wheaton|3|2010||231|IL
+|Chicago|1|2010||266|IL
+|Chicago|5|2010||332|IL
+|Aurora|2|2010||364|IL
+|Batavia|7|2010||364|IL
+|Carol Stream|9|2010||364|IL
+|Chicago|23|2010||364|IL
+|Deerfield|3|2010||364|IL
+|Evanston|2|2010||364|IL
+|Glen Ellyn|1|2010||364|IL
+|Hoffman Estates|1|2010||364|IL
+|Norridge|5|2010||364|IL
+|Rockford|5|2010||364|IL
+|Skokie|3|2010||364|IL
+|Wheaton|21|2010||364|IL
+|Addison|1|2010||368|IL
+|Arlington Heights|2|2010||368|IL
+|Aurora|20|2010||368|IL
+|Bloomingdale|5|2010||368|IL
+|Bolingbrook|2|2010||368|IL
+|Buffalo Grove|5|2010||368|IL
+|Chicago|496|2010||368|IL
+|Dekalb|7|2010||368|IL
+|Des Plaines|25|2010||368|IL
+|Elk Grove Village|24|2010||368|IL
+|Evanston|10|2010||368|IL
+|Freeport|2|2010||368|IL
+|Glen Ellyn|6|2010||368|IL
+|Hoffman Estates|3|2010||368|IL
+|Lake Forest|1|2010||368|IL
+|Lincolnwood|10|2010||368|IL
+|Machesney Park|2|2010||368|IL
+|Mokena|5|2010||368|IL
+|Moline|9|2010||368|IL
+|Morton Grove|38|2010||368|IL
+|Mount Prospect|11|2010||368|IL
+|Mundelein|3|2010||368|IL
+|Naperville|2|2010||368|IL
+|Niles|50|2010||368|IL
+|Orland Park|1|2010||368|IL
+|Park Ridge|12|2010||368|IL
+|Prospect|1|2010||368|IL
+|Prospect Heights|4|2010||368|IL
+|Rock Island|3|2010||368|IL
+|Rockford|124|2010||368|IL
+|Romeoville|1|2010||368|IL
+|Roselle|4|2010||368|IL
+|Skokie|145|2010||368|IL
+|Streamwood|3|2010||368|IL
+|Tinley Park|1|2010||368|IL
+|West Chicago|13|2010||368|IL
+|Westmont|4|2010||368|IL
+|Wheaton|41|2010||368|IL
+|Aurora|1|2010||408|IL
+|Aurora|5|2010||430|IL
+|Champaign|2|2010||430|IL
+|Chicago|1|2010||430|IL
+|Bolingbrook|1|2010||498|IL
+|Chicago|6|2010||498|IL
+|Chicago|52|2010||275|IL
+|Oak Lawn|5|2010||275|IL
+|Oakland|4|2010||275|IL
+|Rockford|2|2010||275|IL
+|Westmont|9|2010||275|IL
+|Gurnee|2|2010||643|IL
+|Chicago|2|2010||694|IL
+|Chicago|18|2010||706|IL
+|Wheaton|11|2010||706|IL
+|Chicago|3|2010||729|IL
+|Moline|5|2010||729|IL
+|Wheaton|5|2010||729|IL
+|Chicago|1|2010||760|IL
+|Hillside|1|2010||760|IL
+|Urbana|1|2010||760|IL
+|Chicago|4|2010||800|IL
+|Chicago|1|2010||804|IL
+|Glen Ellyn|4|2010||804|IL
+|North Riverside|3|2010||804|IL
+|Arlington Heights|1|2010||860|IL
+|Mount Prospect|2|2010||860|IL
+|Aurora|5|2010||704|IL
+|Champaign|4|2010||704|IL
+|Indianapolis|4|2010||004|IN
+|Indianapolis|24|2010||064|IN
+|Bloomington|5|2010||104|IN
+|Fort Wayne|135|2010||104|IN
+|Greenwood|4|2010||104|IN
+|Indianapolis|821|2010||104|IN
+|Washington|2|2010||104|IN
+|Indianapolis|1|2010||148|IN
+|Indianapolis|1|2010||178|IN
+|Indianapolis|12|2010||192|IN
+|Fort Wayne|1|2010||180|IN
+|Indianapolis|45|2010||180|IN
+|Brownsburg|3|2010||232|IN
+|Indianapolis|24|2010||232|IN
+|Indianapolis|13|2010||231|IN
+|Indianapolis|1|2010||324|IN
+|Indianapolis|5|2010||364|IN
+|Huntington|1|2010||368|IN
+|Indianapolis|75|2010||368|IN
+|South Bend|26|2010||368|IN
+|Terre Haute|6|2010||368|IN
+|Indianapolis|2|2010||400|IN
+|Indianapolis|1|2010||430|IN
+|Indianapolis|21|2010||275|IN
+|Indianapolis|43|2010||706|IN
+|Indianapolis|1|2010||144|IN
+|Indianapolis|22|2010||729|IN
+|Indianapolis|1|2010||760|IN
+|Indianapolis|1|2010||800|IN
+|Des Moines|70|2010||064|IA
+|Clive|1|2010||104|IA
+|Des Moines|96|2010||104|IA
+|Marshalltown|6|2010||104|IA
+|Cedar Rapids|5|2010||108|IA
+|Des Moines|1|2010||108|IA
+|Coralville|1|2010||180|IA
+|Des Moines|2|2010||180|IA
+|Des Moines|19|2010||232|IA
+|Sioux City|3|2010||231|IA
+|Carter Lake|5|2010||368|IA
+|Clive|4|2010||368|IA
+|Des Moines|39|2010||368|IA
+|Muscatine|3|2010||368|IA
+|West Des Moines|9|2010||368|IA
+|Des Moines|3|2010||706|IA
+|Coralville|1|2010||729|IA
+|Des Moines|7|2010||729|IA
+|Kansas City|76|2010||064|KS
+|Overland Park|22|2010||064|KS
+|Garden City|19|2010||104|KS
+|Kansas City|126|2010||104|KS
+|Lawrence|5|2010||104|KS
+|Lenexa|1|2010||104|KS
+|Dodge City|5|2010||192|KS
+|Wichita|4|2010||192|KS
+|Kansas City|4|2010||232|KS
+|Kansas City|1|2010||364|KS
+|Olathe|3|2010||364|KS
+|Overland Park|4|2010||364|KS
+|Wichita|1|2010||364|KS
+|Kansas City|7|2010||368|KS
+|Leavenworth|4|2010||368|KS
+|Manhattan|3|2010||368|KS
+|Merriam|3|2010||368|KS
+|Mission|1|2010||368|KS
+|Overland Park|10|2010||368|KS
+|Topeka|6|2010||368|KS
+|Wichita|1|2010||368|KS
+|Kansas City|16|2010||706|KS
+|Kansas City|1|2010||729|KS
+|Louisville|5|2010||004|KY
+|Louisville|4|2010||031|KY
+|Louisville|1|2010||050|KY
+|Bowling Green|12|2010||064|KY
+|Lexington|52|2010||064|KY
+|Louisville|237|2010||064|KY
+|Bowling Green|247|2010||104|KY
+|Crescent Springs|8|2010||104|KY
+|Louisville|271|2010||104|KY
+|Owensboro|127|2010||104|KY
+|Bowling Green|23|2010||108|KY
+|Louisville|4|2010||108|KY
+|Lexington|1|2010||178|KY
+|Louisville|9|2010||178|KY
+|Bowling Green|41|2010||192|KY
+|Lexington|3|2010||192|KY
+|Louisville|124|2010||192|KY
+|Bowling Green|46|2010||180|KY
+|Lexington|136|2010||180|KY
+|Louisville|36|2010||180|KY
+|Louisville|22|2010||232|KY
+|Louisville|3|2010||231|KY
+|Louisville|10|2010||364|KY
+|Anchorage|1|2010||368|KY
+|Bowling Green|104|2010||368|KY
+|Frankfort|1|2010||368|KY
+|Hopkinsville|2|2010||368|KY
+|Jeffersontown|2|2010||368|KY
+|Lexington|79|2010||368|KY
+|Louisville|241|2010||368|KY
+|Owensboro|15|2010||368|KY
+|Radcliff|1|2010||368|KY
+|Louisville|3|2010||384|KY
+|Louisville|3|2010||408|KY
+|Lexington|1|2010||430|KY
+|Louisville|5|2010||430|KY
+|Louisville|1|2010||566|KY
+|Louisville|45|2010||275|KY
+|Lexington|3|2010||643|KY
+|Louisville|1|2010||646|KY
+|Louisville|1|2010||686|KY
+|Bowling Green|36|2010||706|KY
+|Florence|1|2010||706|KY
+|Louisville|85|2010||706|KY
+|Louisville|11|2010||729|KY
+|Louisville|1|2010||788|KY
+|Louisville|6|2010||860|KY
+|Louisville|8|2010||704|KY
+|Baton Rouge|11|2010||004|LA
+|Lafayette|4|2010||004|LA
+|Baton Rouge|13|2010||064|LA
+|Baton Bouge|3|2010||104|LA
+|Baton Rouge|68|2010||104|LA
+|Bossier City|3|2010||104|LA
+|Bossier-Shreveport|6|2010||104|LA
+|Pineville|39|2010||104|LA
+|Baton Rouge|1|2010||156|LA
+|Baton Rouge|12|2010||192|LA
+|Lafayette|22|2010||192|LA
+|Metairie|1|2010||192|LA
+|New Iberia|2|2010||192|LA
+|New Orleans|4|2010||192|LA
+|Pineville|22|2010||192|LA
+|Scott|1|2010||192|LA
+|Baton Rouge|18|2010||180|LA
+|Lafayette|7|2010||180|LA
+|Baton Rouge|19|2010||232|LA
+|Baton Rouge|5|2010||231|LA
+|Baton Rouge|43|2010||368|LA
+|Kenner|4|2010||368|LA
+|Lafayette|19|2010||368|LA
+|Metairie|18|2010||368|LA
+|Baton Rouge|7|2010||706|LA
+|Lafayette|5|2010||706|LA
+|Baton Rouge|2|2010||729|LA
+|Baton Rouge|4|2010||704|LA
+|Portland|3|2010||004|ME
+|Portland|4|2010||104|ME
+|Portland|3|2010||108|ME
+|Portland|30|2010||180|ME
+|Portland|10|2010||232|ME
+|South Portland|1|2010||364|ME
+|Norway|10|2010||368|ME
+|Portland|61|2010||368|ME
+|Westbrook|2|2010||368|ME
+|Windham|3|2010||643|ME
+|Lewiston|22|2010||706|ME
+|Portland|85|2010||706|ME
+|Portland|6|2010||729|ME
+|Portland|3|2010||860|ME
+|Portland|5|2010||704|ME
+|Baltimore|1|2010||004|MD
+|Silver Spring|5|2010||004|MD
+|Silver Spring|3|2010||031|MD
+|Maugansville|6|2010||112|MD
+|Baltimore|195|2010||064|MD
+|Hyattsville|5|2010||064|MD
+|Riverdale|67|2010||064|MD
+|Silver Spring|29|2010||064|MD
+|Arbutus|1|2010||104|MD
+|Baltimore|90|2010||104|MD
+|Elkridge|12|2010||104|MD
+|Ellicott City|9|2010||104|MD
+|Frederick|35|2010||104|MD
+|Gaithersburg|3|2010||104|MD
+|Greenbelt|7|2010||104|MD
+|Hyattsville|2|2010||104|MD
+|Jessup|3|2010||104|MD
+|Laurel|5|2010||104|MD
+|Lutherville|4|2010||104|MD
+|Rockville|1|2010||104|MD
+|Savage|33|2010||104|MD
+|Severn|6|2010||104|MD
+|Silver Spring|67|2010||104|MD
+|Williamsport|1|2010||104|MD
+|Baltimore|2|2010||108|MD
+|Silver Spring|5|2010||108|MD
+|Baltimore|5|2010||140|MD
+|Silver Spring|8|2010||140|MD
+|Silver Spring|1|2010||170|MD
+|Silver Spring|1|2010||178|MD
+|Baltimore|27|2010||180|MD
+|Oxon Hill|8|2010||180|MD
+|Silver Spring|47|2010||180|MD
+|Baltimore|86|2010||232|MD
+|Chevy Chase|1|2010||232|MD
+|Hyattsville|3|2010||232|MD
+|New Carrollton|1|2010||232|MD
+|Rockville|1|2010||232|MD
+|Silver Spring|48|2010||232|MD
+|Takoma Park|4|2010||232|MD
+|Baltimore|27|2010||231|MD
+|Burtonsville|2|2010||231|MD
+|Dundalk|1|2010||231|MD
+|Silver Spring|33|2010||231|MD
+|Baltimore|24|2010||364|MD
+|Beltsville|1|2010||364|MD
+|Columbia|2|2010||364|MD
+|Elkridge|2|2010||364|MD
+|Fort Washington|3|2010||364|MD
+|Glen Burnie|1|2010||364|MD
+|Marriottsville|2|2010||364|MD
+|Mitchellville|1|2010||364|MD
+|North Potomac|4|2010||364|MD
+|Potomac|2|2010||364|MD
+|Rockville|2|2010||364|MD
+|Silver Spring|9|2010||364|MD
+|West Friendship|2|2010||364|MD
+|Baltimore|63|2010||368|MD
+|Bethesda|4|2010||368|MD
+|Chevy Chase|6|2010||368|MD
+|Columbia|1|2010||368|MD
+|Gaithersburg|4|2010||368|MD
+|Greenbelt|5|2010||368|MD
+|Huntingtown|6|2010||368|MD
+|Hyattsville|17|2010||368|MD
+|Mount Rainier|1|2010||368|MD
+|North Bethesda|1|2010||368|MD
+|Nottingham|1|2010||368|MD
+|Potomac|1|2010||368|MD
+|Rockville|5|2010||368|MD
+|Silver Spring|119|2010||368|MD
+|Sykesville|14|2010||368|MD
+|Takoma Park|3|2010||368|MD
+|Silver Spring|1|2010||408|MD
+|Bethesda|4|2010||417|MD
+|Silver Spring|1|2010||418|MD
+|Baltimore|1|2010||430|MD
+|Middle River|4|2010||430|MD
+|Baltimore|2|2010||498|MD
+|Baltimore|2|2010||275|MD
+|Silver Spring|3|2010||275|MD
+|Rockville|7|2010||643|MD
+|Hyattsville|4|2010||694|MD
+|Silver Spring|5|2010||694|MD
+|Baltimore|4|2010||706|MD
+|Silver Spring|14|2010||706|MD
+|Baltimore|4|2010||144|MD
+|Silver Spring|1|2010||729|MD
+|Silver Spring|1|2010||760|MD
+|Malden|1|2010||004|MA
+|South Boston|13|2010||004|MA
+|West Springfield|1|2010||112|MA
+|Boston|42|2010||064|MA
+|Chelsea|8|2010||064|MA
+|Dorchester|6|2010||064|MA
+|Lowell|23|2010||064|MA
+|Lynn|18|2010||064|MA
+|South Boston|7|2010||064|MA
+|Springfield|34|2010||064|MA
+|Wellesley|5|2010||064|MA
+|West Springfield|123|2010||064|MA
+|Worcester|116|2010||064|MA
+|Boston|32|2010||104|MA
+|Dorchester|2|2010||104|MA
+|Lowell|117|2010||104|MA
+|Lynn|1|2010||104|MA
+|South Boston|17|2010||104|MA
+|Springfield|17|2010||104|MA
+|West Springfield|62|2010||104|MA
+|Worcester|20|2010||104|MA
+|Springfield|6|2010||108|MA
+|Malden|8|2010||140|MA
+|Worcester|1|2010||156|MA
+|Boston|4|2010||192|MA
+|Cambridge|4|2010||192|MA
+|Boston|8|2010||180|MA
+|Jamaica Plain|6|2010||180|MA
+|Lowell|11|2010||180|MA
+|South Boston|6|2010||180|MA
+|Springfield|31|2010||180|MA
+|Stoughton|3|2010||180|MA
+|Wellesley|1|2010||180|MA
+|Worcester|2|2010||180|MA
+|Boston|7|2010||232|MA
+|Cambridge|2|2010||232|MA
+|Dorchester|1|2010||232|MA
+|Jamaica Plain|3|2010||232|MA
+|Lowell|8|2010||232|MA
+|Malden|10|2010||232|MA
+|Somerville|3|2010||232|MA
+|South Boston|17|2010||232|MA
+|Springfield|12|2010||232|MA
+|Wellesley|1|2010||232|MA
+|Worcester|1|2010||232|MA
+|Jamaica Plain|4|2010||231|MA
+|South Boston|3|2010||231|MA
+|Springfield|5|2010||231|MA
+|Boston|2|2010||270|MA
+|Lynn|2|2010||270|MA
+|Worcester|1|2010||270|MA
+|Dorchester|1|2010||324|MA
+|Cambridge|1|2010||364|MA
+|Lynn|3|2010||364|MA
+|Millis|1|2010||364|MA
+|South Boston|1|2010||364|MA
+|Allston|2|2010||368|MA
+|Arlington|2|2010||368|MA
+|Boston|73|2010||368|MA
+|Chelsea|4|2010||368|MA
+|Chicopee|8|2010||368|MA
+|Dorchester|10|2010||368|MA
+|Framingham|11|2010||368|MA
+|Lawrence|5|2010||368|MA
+|Lowell|60|2010||368|MA
+|Ludlow|4|2010||368|MA
+|Lynn|2|2010||368|MA
+|Lynnfield|7|2010||368|MA
+|Malden|26|2010||368|MA
+|Medford|2|2010||368|MA
+|Natick|5|2010||368|MA
+|Newtonville|3|2010||368|MA
+|Peabody|3|2010||368|MA
+|Quincy|1|2010||368|MA
+|Revere|5|2010||368|MA
+|Saugus|1|2010||368|MA
+|South Boston|20|2010||368|MA
+|Springfield|78|2010||368|MA
+|West Springfield|65|2010||368|MA
+|Weston|5|2010||368|MA
+|Worcester|245|2010||368|MA
+|Lynn|6|2010||430|MA
+|West Springfield|3|2010||440|MA
+|West Springfield|18|2010||498|MA
+|West Springfiled|7|2010||498|MA
+|South Boston|5|2010||275|MA
+|Boston|3|2010||643|MA
+|Brighton|3|2010||643|MA
+|Lynn|6|2010||643|MA
+|Quincy|2|2010||643|MA
+|West Springfield|2|2010||643|MA
+|Worcester|4|2010||646|MA
+|Lynn|1|2010||694|MA
+|Worcester|6|2010||694|MA
+|Boston|14|2010||706|MA
+|Cambridge|7|2010||706|MA
+|Dorchester|2|2010||706|MA
+|Jamaica Plain|21|2010||706|MA
+|Lowell|9|2010||706|MA
+|Malden|13|2010||706|MA
+|Roxbury|1|2010||706|MA
+|South Boston|60|2010||706|MA
+|Springfield|27|2010||706|MA
+|West Springfield|35|2010||706|MA
+|Worcester|25|2010||706|MA
+|Boston|1|2010||729|MA
+|South Boston|5|2010||729|MA
+|Boston|7|2010||768|MA
+|Lynn|2|2010||804|MA
+|West Springfield|18|2010||804|MA
+|Westfield|4|2010||804|MA
+|Jamaica Plain|5|2010||704|MA
+|Worcester|8|2010||704|MA
+|Grand Rapids|6|2010||004|MI
+|Lansing|3|2010||004|MI
+|Grand Haven|6|2010||064|MI
+|Grand Rapids|78|2010||064|MI
+|Lansing|222|2010||064|MI
+|Battle Creek|158|2010||104|MI
+|Grand Rapids|294|2010||104|MI
+|Kentwood|1|2010||104|MI
+|Lansing|172|2010||104|MI
+|Plainwell|2|2010||104|MI
+|Springfield|1|2010||104|MI
+|Grand Rapids|22|2010||108|MI
+|Battle Creek|3|2010||192|MI
+|Grand Rapids|20|2010||192|MI
+|Holland|3|2010||192|MI
+|Lansing|18|2010||192|MI
+|Ann Arbor|1|2010||180|MI
+|Battle Creek|11|2010||180|MI
+|Grand Rapids|81|2010||180|MI
+|Lansing|28|2010||180|MI
+|Ann Arbor|1|2010||232|MI
+|Battle Creek|4|2010||232|MI
+|Dearborn Heights|1|2010||232|MI
+|Grand Rapids|20|2010||232|MI
+|Lansing|1|2010||232|MI
+|Mount Morris|1|2010||232|MI
+|Grand Rapids|3|2010||231|MI
+|Ann Arbor|1|2010||364|MI
+|Grand Rapids|1|2010||364|MI
+|Lansing|6|2010||364|MI
+|Ada|7|2010||368|MI
+|Ann Arbor|37|2010||368|MI
+|Bloomfield|5|2010||368|MI
+|Bloomfield Hills|9|2010||368|MI
+|Brownstown|5|2010||368|MI
+|Canton|4|2010||368|MI
+|Center Line|3|2010||368|MI
+|Commerce|4|2010||368|MI
+|Dearborn|61|2010||368|MI
+|Dearborn Heights|8|2010||368|MI
+|Detroit|16|2010||368|MI
+|Dewitt|3|2010||368|MI
+|East Lansing|8|2010||368|MI
+|Farmington|3|2010||368|MI
+|Farmington Hills|38|2010||368|MI
+|Flint|4|2010||368|MI
+|Grand Rapids|49|2010||368|MI
+|Grandville|9|2010||368|MI
+|Haslett|6|2010||368|MI
+|Hazel Park|33|2010||368|MI
+|Highland Park|1|2010||368|MI
+|Inkster|4|2010||368|MI
+|Kalamazoo|5|2010||368|MI
+|Keego Harbor|1|2010||368|MI
+|Lake Orion|1|2010||368|MI
+|Lansing|118|2010||368|MI
+|Livonia|5|2010||368|MI
+|Macomb|15|2010||368|MI
+|Madison Heights|127|2010||368|MI
+|Milford|1|2010||368|MI
+|Muskegon|4|2010||368|MI
+|Novi|8|2010||368|MI
+|Oak Park|8|2010||368|MI
+|Orchard Lake|2|2010||368|MI
+|Rochester|4|2010||368|MI
+|Rochester Hills|11|2010||368|MI
+|Shelby|29|2010||368|MI
+|Shelby Township|2|2010||368|MI
+|Southfield|965|2010||368|MI
+|Sterling Heights|293|2010||368|MI
+|Swartz Creek|6|2010||368|MI
+|Taylor|1|2010||368|MI
+|Troy|34|2010||368|MI
+|Utica|8|2010||368|MI
+|Walled Lake|6|2010||368|MI
+|Warren|133|2010||368|MI
+|Waterford|3|2010||368|MI
+|West Bloomfield|52|2010||368|MI
+|Wixom|10|2010||368|MI
+|Ypsilanti|5|2010||368|MI
+|Rochester|1|2010||418|MI
+|Grand Rapids|1|2010||430|MI
+|Wallace|2|2010||498|MI
+|Lansing|1|2010||275|MI
+|Ann Arbor|1|2010||643|MI
+|Grand Rapids|1|2010||694|MI
+|Ann Arbor|1|2010||706|MI
+|Grand Rapids|21|2010||706|MI
+|Lansing|39|2010||706|MI
+|East Lansing|1|2010||729|MI
+|Grand Rapids|8|2010||729|MI
+|Lansing|10|2010||729|MI
+|Kingsley|2|2010||804|MI
+|Traverse City|1|2010||804|MI
+|West Bloomfield|2|2010||860|MI
+|Grand Rapids|10|2010||704|MI
+|Waterford|1|2010||704|MI
+|Brooklyn Park|1|2010||004|MN
+|Burnsville|2|2010||112|MN
+|Champlin|2|2010||112|MN
+|Maple Grove|4|2010||112|MN
+|Minneapolis|4|2010||112|MN
+|Lauderdale|3|2010||064|MN
+|Minneapolis|41|2010||064|MN
+|Saint Paul|153|2010||064|MN
+|Maplewood|30|2010||104|MN
+|Minneapolis|233|2010||104|MN
+|Richfield|89|2010||104|MN
+|Roseville|4|2010||104|MN
+|Saint Paul|484|2010||104|MN
+|Saint Paul|5|2010||192|MN
+|Coon Rapids|5|2010||180|MN
+|Minneapolis|13|2010||180|MN
+|Saint Paul|16|2010||180|MN
+|Minneapolis|15|2010||232|MN
+|Oakdale|1|2010||232|MN
+|Saint Paul|19|2010||232|MN
+|Minneapolis|34|2010||231|MN
+|Mounds View|14|2010||231|MN
+|New Brighton|7|2010||231|MN
+|Rochester|3|2010||231|MN
+|Roseville|4|2010||231|MN
+|Saint Paul|23|2010||231|MN
+|Columbia Heights|6|2010||368|MN
+|Coon Rapids|11|2010||368|MN
+|Fridley|1|2010||368|MN
+|Golden Valley|1|2010||368|MN
+|Maplewood|10|2010||368|MN
+|Minneapolis|27|2010||368|MN
+|Moorhead|1|2010||368|MN
+|New Brighton|10|2010||368|MN
+|Pelican Rapids|6|2010||368|MN
+|Rochester|47|2010||368|MN
+|Saint Cloud|10|2010||368|MN
+|Saint Paul|81|2010||368|MN
+|Prior Lake|2|2010||417|MN
+|Brooklyn Park|16|2010||418|MN
+|Coon Rapids|2|2010||418|MN
+|Forest Lake|9|2010||418|MN
+|Granite Falls|7|2010||418|MN
+|Minneapolis|2|2010||418|MN
+|Brooklyn Park|3|2010||430|MN
+|Minneapolis|2|2010||430|MN
+|North Brooklyn Park|1|2010||430|MN
+|Saint Paul|9|2010||430|MN
+|Golden Valley|6|2010||498|MN
+|Long Lake|1|2010||498|MN
+|Rochester|6|2010||275|MN
+|Bloomington|10|2010||643|MN
+|Elk River|1|2010||643|MN
+|Minneapolis|4|2010||646|MN
+|Brooklyn Park|1|2010||694|MN
+|Burnsville|7|2010||706|MN
+|Columbia Heights|13|2010||706|MN
+|Eagan|3|2010||706|MN
+|Eden Prairie|4|2010||706|MN
+|Faribault|13|2010||706|MN
+|Hopkins|1|2010||706|MN
+|Mankato|6|2010||706|MN
+|Mendota Heights|1|2010||706|MN
+|Minneapolis|203|2010||706|MN
+|Minnetonka|2|2010||706|MN
+|Moorhead|5|2010||706|MN
+|New Brighton|3|2010||706|MN
+|Norcross|1|2010||706|MN
+|Owatonna|5|2010||706|MN
+|Pelican Rapids|1|2010||706|MN
+|Richfield|76|2010||706|MN
+|Rochester|28|2010||706|MN
+|Roseville|4|2010||706|MN
+|Saint Cloud|112|2010||706|MN
+|Saint Paul|157|2010||706|MN
+|Waite Park|1|2010||706|MN
+|Waseca|6|2010||706|MN
+|Willmar|2|2010||706|MN
+|Minneapolis|9|2010||729|MN
+|Prior Lake|5|2010||729|MN
+|Rochester|5|2010||729|MN
+|Burnsville|1|2010||804|MN
+|Prior Lake|6|2010||860|MN
+|Jackson|1|2010||104|MS
+|Jackson|2|2010||180|MS
+|Saint Louis|9|2010||004|MO
+|Saint Louis|170|2010||064|MO
+|Columbia|22|2010||104|MO
+|Jefferson City|14|2010||104|MO
+|Kansas City|154|2010||104|MO
+|Saint Louis|103|2010||104|MO
+|Springfield|1|2010||104|MO
+|Saint Louis|8|2010||108|MO
+|Kansas City|2|2010||140|MO
+|Columbia|5|2010||192|MO
+|Dexter|3|2010||192|MO
+|Independence|4|2010||192|MO
+|Kansas City|57|2010||192|MO
+|Saint Louis|30|2010||192|MO
+|Kansas City|10|2010||180|MO
+|Saint Louis|11|2010||180|MO
+|Chesterfield|1|2010||232|MO
+|Columbia|5|2010||232|MO
+|Jefferson City|9|2010||232|MO
+|Saint Louis|15|2010||232|MO
+|Columbia|1|2010||231|MO
+|Kansas City|1|2010||231|MO
+|Saint Louis|18|2010||231|MO
+|Chesterfield|1|2010||364|MO
+|Maryland Heights|2|2010||364|MO
+|Affton|4|2010||368|MO
+|Chesterfield|3|2010||368|MO
+|Clayton|3|2010||368|MO
+|Columbia|22|2010||368|MO
+|Jefferson City|6|2010||368|MO
+|Kansas City|38|2010||368|MO
+|North Kansas City|8|2010||368|MO
+|Raytown|4|2010||368|MO
+|Rolla|1|2010||368|MO
+|Saint Louis|121|2010||368|MO
+|Saint Peters|1|2010||368|MO
+|Saint Louis|5|2010||417|MO
+|Saint Louis|3|2010||430|MO
+|Kansas City|5|2010||478|MO
+|Saint Louis|4|2010||643|MO
+|Saint Louis|7|2010||694|MO
+|Kansas City|95|2010||706|MO
+|Saint Louis|71|2010||706|MO
+|Kansas City|7|2010||729|MO
+|Saint Louis|12|2010||729|MO
+|Saint Louis|1|2010||860|MO
+|Saint Louis|4|2010||704|MO
+|Saint Louis|2|2010||887|MO
+|Omaha|124|2010||064|NE
+|Crete|1|2010||104|NE
+|Lincoln|64|2010||104|NE
+|Omaha|415|2010||104|NE
+|Omaha|6|2010||108|NE
+|Omaha|2|2010||192|NE
+|Scottsbluff|3|2010||192|NE
+|Lincoln|5|2010||180|NE
+|Omaha|1|2010||231|NE
+|Lincoln|11|2010||364|NE
+|Lincoln|59|2010||368|NE
+|Omaha|9|2010||368|NE
+|South Sioux City|3|2010||368|NE
+|Lexington|2|2010||706|NE
+|Omaha|11|2010||706|NE
+|Lincoln|1|2010||729|NE
+|Omaha|32|2010||729|NE
+|Lincoln|3|2010||764|NE
+|Lincoln|28|2010||704|NE
+|Las Vegas|27|2010||064|NV
+|Las Vegas|3|2010||104|NV
+|Las Vegas|4|2010||108|NV
+|Las Vegas|2|2010||170|NV
+|Las Vegas|199|2010||192|NV
+|Sunrise Manor|12|2010||192|NV
+|Las Vegas|14|2010||180|NV
+|Las Vegas|64|2010||232|NV
+|Las Vegas|5|2010||231|NV
+|Las Vegas|17|2010||364|NV
+|Enterprise|4|2010||368|NV
+|Henderson|4|2010||368|NV
+|Las Vegas|80|2010||368|NV
+|North Las Vegas|7|2010||368|NV
+|Reno|4|2010||368|NV
+|Las Vegas|2|2010||646|NV
+|Las Vegas|7|2010||706|NV
+|Winchester|2|2010||706|NV
+|Las Vegas|5|2010||729|NV
+|Las Vegas|5|2010||704|NV
+|Concord|1|2010||004|NH
+|Concord|152|2010||064|NH
+|Laconia|2|2010||064|NH
+|Manchester|108|2010||064|NH
+|Concord|1|2010||854|NH
+|Concord|11|2010||104|NH
+|Manchester|5|2010||108|NH
+|Concord|4|2010||120|NH
+|Concord|4|2010||180|NH
+|Manchester|46|2010||180|NH
+|Manchester|1|2010||364|NH
+|Concord|1|2010||368|NH
+|Manchester|87|2010||368|NH
+|Portsmouth|1|2010||368|NH
+|Concord|5|2010||706|NH
+|Manchester|5|2010||729|NH
+|Ogdensburg|1|2010||004|NJ
+|Parsippany|1|2010||004|NJ
+|Camden|14|2010||064|NJ
+|Elizabeth|1|2010||064|NJ
+|Jersey City|3|2010||064|NJ
+|Linden|4|2010||064|NJ
+|Trenton|48|2010||064|NJ
+|Atlantic City|5|2010||104|NJ
+|Camden|81|2010||104|NJ
+|Elizabeth|34|2010||104|NJ
+|Linden|29|2010||104|NJ
+|Oaklyn|1|2010||104|NJ
+|Somerdale|10|2010||104|NJ
+|Trenton|45|2010||104|NJ
+|Atlantic City|2|2010||192|NJ
+|Bogota|4|2010||192|NJ
+|Camden|1|2010||192|NJ
+|Carteret|3|2010||192|NJ
+|Cherry Hill|2|2010||192|NJ
+|Elizabeth|47|2010||192|NJ
+|Fairview|1|2010||192|NJ
+|Linden|126|2010||192|NJ
+|Lodi|3|2010||192|NJ
+|Lyndhurst|4|2010||192|NJ
+|Perth Amboy|1|2010||192|NJ
+|Trenton|8|2010||192|NJ
+|Union City|8|2010||192|NJ
+|Wayne|5|2010||192|NJ
+|West New York|16|2010||192|NJ
+|Atlantic City|11|2010||180|NJ
+|Elizabeth|1|2010||180|NJ
+|Elizabeth|2|2010||232|NJ
+|Hightstown|1|2010||232|NJ
+|Jersey City|1|2010||232|NJ
+|Newark|1|2010||232|NJ
+|West Orange|1|2010||232|NJ
+|Elizabeth|6|2010||231|NJ
+|Dover|19|2010||340|NJ
+|Jersey City|1|2010||340|NJ
+|Brigantine|2|2010||364|NJ
+|East Orange|2|2010||364|NJ
+|Atlantic City|4|2010||368|NJ
+|Bridgewater|2|2010||368|NJ
+|Camden|40|2010||368|NJ
+|Clifton|3|2010||368|NJ
+|Elizabeth|30|2010||368|NJ
+|Elmwood Park|5|2010||368|NJ
+|Freehold|2|2010||368|NJ
+|Haledon|1|2010||368|NJ
+|Hillsborough|1|2010||368|NJ
+|Jersey City|7|2010||368|NJ
+|Lake Hopatcong|7|2010||368|NJ
+|Leonia|3|2010||368|NJ
+|Linden|1|2010||368|NJ
+|Maplewood|2|2010||368|NJ
+|Moorestown|5|2010||368|NJ
+|Newark|1|2010||368|NJ
+|Newfield|3|2010||368|NJ
+|Paterson|9|2010||368|NJ
+|Plainfield|4|2010||368|NJ
+|Robbinsville|3|2010||368|NJ
+|Sicklerville|3|2010||368|NJ
+|Totowa|3|2010||368|NJ
+|West Paterson|4|2010||368|NJ
+|Whitehouse Station|5|2010||368|NJ
+|Williamstown|3|2010||368|NJ
+|Newark|4|2010||430|NJ
+|Trenton|8|2010||430|NJ
+|Moorestown|7|2010||586|NJ
+|Sewell|5|2010||275|NJ
+|Edgewater|2|2010||643|NJ
+|Edison|1|2010||643|NJ
+|Fair Lawn|5|2010||643|NJ
+|Highland Park|4|2010||643|NJ
+|Lakewood|1|2010||643|NJ
+|Paterson|2|2010||643|NJ
+|Trenton|1|2010||643|NJ
+|West Orange|1|2010||643|NJ
+|Linden|1|2010||760|NJ
+|Edison|2|2010||804|NJ
+|Lakewood|1|2010||804|NJ
+|Albuquerque|32|2010||064|NM
+|Albuquerque|32|2010||104|NM
+|Albuquerque|1|2010||108|NM
+|Albuquerque|3|2010||178|NM
+|Albuquerque|26|2010||192|NM
+|Rio Rancho|3|2010||192|NM
+|Albuquerque|18|2010||180|NM
+|Albuquerque|1|2010||364|NM
+|Albuquerque|55|2010||368|NM
+|Tularosa|2|2010||368|NM
+|Albuquerque|20|2010||706|NM
+|Albuquerque|4|2010||729|NM
+|Albany|4|2010||004|NY
+|Flushing|1|2010||004|NY
+|New York|4|2010||004|NY
+|Rochester|12|2010||004|NY
+|Brooklyn|7|2010||031|NY
+|New York|1|2010||031|NY
+|Brooklyn|2|2010||112|NY
+|Monsey|2|2010||112|NY
+|New York|7|2010||112|NY
+|North Tonawanda|6|2010||112|NY
+|Utica|10|2010||112|NY
+|Albany|77|2010||064|NY
+|Bronx|34|2010||064|NY
+|Buffalo|265|2010||064|NY
+|Elmhurst|8|2010||064|NY
+|New York|17|2010||064|NY
+|Queens|2|2010||064|NY
+|Rochester|262|2010||064|NY
+|Syracuse|231|2010||064|NY
+|Utica|48|2010||064|NY
+|Woodside|2|2010||064|NY
+|Albany|158|2010||104|NY
+|Bronx|9|2010||104|NY
+|Brooklyn|3|2010||104|NY
+|Buffalo|510|2010||104|NY
+|Corona|4|2010||104|NY
+|Elmhurst|7|2010||104|NY
+|Ithaca|7|2010||104|NY
+|Jackson Heights|4|2010||104|NY
+|New York|71|2010||104|NY
+|Queens|1|2010||104|NY
+|Rensselaer|24|2010||104|NY
+|Rochester|131|2010||104|NY
+|Rome|2|2010||104|NY
+|Syracuse|244|2010||104|NY
+|Troy|5|2010||104|NY
+|Utica|288|2010||104|NY
+|Buffalo|2|2010||108|NY
+|Rochester|19|2010||108|NY
+|Syracuse|23|2010||108|NY
+|Buffalo|1|2010||120|NY
+|Buffalo|1|2010||140|NY
+|Albany|1|2010||148|NY
+|Brooklyn|9|2010||156|NY
+|Elmhurst|4|2010||156|NY
+|Forest Hills|4|2010||156|NY
+|Queens|4|2010||156|NY
+|Syracuse|1|2010||156|NY
+|Brooklyn|2|2010||170|NY
+|Corona|3|2010||170|NY
+|New Rochelle|1|2010||170|NY
+|Albany|1|2010||178|NY
+|Brentwood|1|2010||192|NY
+|Bronx|4|2010||192|NY
+|Brooklyn|1|2010||192|NY
+|Buffalo|16|2010||192|NY
+|Rochester|34|2010||192|NY
+|Syracuse|16|2010||192|NY
+|Albany|6|2010||180|NY
+|Buffalo|126|2010||180|NY
+|New York|1|2010||180|NY
+|Penfield|11|2010||180|NY
+|Rochester|36|2010||180|NY
+|Schenectady|2|2010||180|NY
+|Syracuse|71|2010||180|NY
+|Utica|9|2010||180|NY
+|Albany|6|2010||232|NY
+|Bronx|5|2010||232|NY
+|Brooklyn|1|2010||232|NY
+|Buffalo|78|2010||232|NY
+|New York|11|2010||232|NY
+|Rochester|16|2010||232|NY
+|Syracuse|43|2010||232|NY
+|Albany|4|2010||231|NY
+|Buffalo|4|2010||231|NY
+|New York|3|2010||231|NY
+|Rochester|1|2010||231|NY
+|Syracuse|6|2010||231|NY
+|West Henrietta|1|2010||231|NY
+|New York|1|2010||268|NY
+|Buffalo|3|2010||364|NY
+|Loudonville|1|2010||364|NY
+|Manhasset|2|2010||364|NY
+|New York|23|2010||364|NY
+|Syracuse|1|2010||364|NY
+|Albany|108|2010||368|NY
+|Astoria|1|2010||368|NY
+|Bronx|7|2010||368|NY
+|Brooklyn|6|2010||368|NY
+|Buffalo|177|2010||368|NY
+|East Setauket|2|2010||368|NY
+|Grand Island|6|2010||368|NY
+|Henrietta|5|2010||368|NY
+|Lackawanna|6|2010||368|NY
+|Latham|7|2010||368|NY
+|New City|3|2010||368|NY
+|New York|21|2010||368|NY
+|Queens|8|2010||368|NY
+|Richmond Hill|10|2010||368|NY
+|Rochester|39|2010||368|NY
+|Syracuse|104|2010||368|NY
+|Troy|11|2010||368|NY
+|Utica|36|2010||368|NY
+|Whitestone|4|2010||368|NY
+|Yonkers|1|2010||368|NY
+|Flushing|1|2010||408|NY
+|Albany|1|2010||430|NY
+|Jamaica|2|2010||430|NY
+|New York|12|2010||430|NY
+|Rochester|3|2010||430|NY
+|Staten Island|1|2010||430|NY
+|Syracuse|7|2010||430|NY
+|Woodside|1|2010||430|NY
+|Brooklyn|1|2010||498|NY
+|Cohoes|4|2010||498|NY
+|Syracuse|4|2010||586|NY
+|Buffalo|3|2010||275|NY
+|Schenectady|4|2010||275|NY
+|Utica|52|2010||275|NY
+|Brooklyn|7|2010||643|NY
+|Memphis|4|2010||643|NY
+|New York|9|2010||643|NY
+|Staten Island|1|2010||643|NY
+|Utica|4|2010||643|NY
+|Buffalo|12|2010||646|NY
+|Rochester|5|2010||646|NY
+|Syracuse|1|2010||686|NY
+|Albany|1|2010||694|NY
+|Buffalo|2|2010||694|NY
+|Staten Island|1|2010||694|NY
+|Buffalo|104|2010||706|NY
+|Henrietta|2|2010||706|NY
+|Rochester|56|2010||706|NY
+|Syracuse|115|2010||706|NY
+|Troy|3|2010||706|NY
+|Utica|5|2010||706|NY
+|Albany|3|2010||729|NY
+|Bronx|1|2010||729|NY
+|Brooklyn|2|2010||729|NY
+|Buffalo|6|2010||729|NY
+|Syracuse|8|2010||729|NY
+|Utica|5|2010||729|NY
+|Brooklyn|1|2010||764|NY
+|Brooklyn|2|2010||804|NY
+|New York|5|2010||804|NY
+|Rochester|5|2010||804|NY
+|Syracuse|4|2010||804|NY
+|Utica|4|2010||804|NY
+|Brooklyn|5|2010||860|NY
+|Forest Hills|2|2010||860|NY
+|Jamaica|1|2010||860|NY
+|New York|21|2010||860|NY
+|Queens|1|2010||860|NY
+|Buffalo|5|2010||704|NY
+|Syracuse|3|2010||704|NY
+|Utica|4|2010||704|NY
+|Charlotte|3|2010||004|NC
+|Greensboro|1|2010||004|NC
+|Charlotte|271|2010||064|NC
+|Durham|43|2010||064|NC
+|Greensboro|100|2010||064|NC
+|High Point|67|2010||064|NC
+|Matthews|6|2010||064|NC
+|Raleigh|39|2010||064|NC
+|Carrboro|21|2010||104|NC
+|Chapel Hill|6|2010||104|NC
+|Charlotte|213|2010||104|NC
+|Durham|85|2010||104|NC
+|Greensboro|30|2010||104|NC
+|High Point|112|2010||104|NC
+|New Bern|163|2010||104|NC
+|Raleigh|126|2010||104|NC
+|Wilmington|39|2010||104|NC
+|Winston-Salem|24|2010||104|NC
+|High Point|1|2010||108|NC
+|Greensboro|10|2010||140|NC
+|Durham|7|2010||148|NC
+|Greensboro|2|2010||148|NC
+|Raleigh|3|2010||170|NC
+|Wilmington|2|2010||170|NC
+|Charlotte|37|2010||192|NC
+|Concord|18|2010||192|NC
+|Greensboro|5|2010||192|NC
+|Knightdale|3|2010||192|NC
+|Lenoir|3|2010||192|NC
+|Monroe|2|2010||192|NC
+|Raleigh|30|2010||192|NC
+|Wilmington|4|2010||192|NC
+|Chapel Hill|7|2010||180|NC
+|Charlotte|12|2010||180|NC
+|Greensboro|38|2010||180|NC
+|High Point|2|2010||180|NC
+|Raleigh|19|2010||180|NC
+|Charlotte|14|2010||232|NC
+|Greensboro|9|2010||232|NC
+|High Point|18|2010||232|NC
+|Monroe|1|2010||232|NC
+|Raleigh|52|2010||232|NC
+|Greensboro|14|2010||231|NC
+|High Point|18|2010||231|NC
+|Raleigh|6|2010||231|NC
+|Charlotte|9|2010||364|NC
+|Raleigh|3|2010||364|NC
+|Cary|3|2010||368|NC
+|Charlotte|59|2010||368|NC
+|Durham|74|2010||368|NC
+|Fayetteville|13|2010||368|NC
+|Greensboro|12|2010||368|NC
+|High Point|18|2010||368|NC
+|Jacksonville|1|2010||368|NC
+|Nashville|5|2010||368|NC
+|New Bern|7|2010||368|NC
+|Raleigh|63|2010||368|NC
+|Roanoke Rapids|4|2010||368|NC
+|Winston-Salem|15|2010||368|NC
+|Charlotte|9|2010||414|NC
+|Charlotte|8|2010||418|NC
+|Taylorsville|1|2010||418|NC
+|Charlotte|2|2010||430|NC
+|Greensboro|5|2010||430|NC
+|Salisbury|2|2010||430|NC
+|Asheville|22|2010||498|NC
+|Matthews|12|2010||498|NC
+|Wake Forest|1|2010||498|NC
+|Charlotte|4|2010||643|NC
+|Raleigh|3|2010||643|NC
+|Charlotte|1|2010||694|NC
+|Charlotte|11|2010||706|NC
+|Durham|17|2010||706|NC
+|Greensboro|1|2010||706|NC
+|High Point|23|2010||706|NC
+|Raleigh|52|2010||706|NC
+|Durham|5|2010||729|NC
+|Greensboro|2|2010||729|NC
+|High Point|1|2010||729|NC
+|Raleigh|1|2010||760|NC
+|Asheville|10|2010||804|NC
+|Charlotte|49|2010||704|NC
+|Durham|19|2010||704|NC
+|Greensboro|79|2010||704|NC
+|High Point|14|2010||704|NC
+|New Bern|10|2010||704|NC
+|Raleigh|18|2010||704|NC
+|Greensboro|4|2010||716|NC
+|Raleigh|2|2010||716|NC
+|Fargo|173|2010||064|ND
+|Grand Forks|49|2010||064|ND
+|Fargo|8|2010||104|ND
+|Fargo|1|2010||108|ND
+|West Fargo|5|2010||108|ND
+|Fargo|40|2010||180|ND
+|Fargo|10|2010||232|ND
+|Fargo|6|2010||231|ND
+|Grand Forks|6|2010||231|ND
+|Fargo|2|2010||364|ND
+|Bismarck|19|2010||368|ND
+|Fargo|52|2010||368|ND
+|Grand Forks|3|2010||368|ND
+|Fargo|4|2010||430|ND
+|Fargo|9|2010||646|ND
+|Fargo|30|2010||706|ND
+|Grand Forks|7|2010||706|ND
+|Fargo|14|2010||729|ND
+|Carson|3|2010||804|ND
+|Cleveland|2|2010||004|OH
+|Akron|134|2010||064|OH
+|Beachwood|44|2010||064|OH
+|Cincinnati|83|2010||064|OH
+|Cleveland|80|2010||064|OH
+|Cleveland Heights|8|2010||064|OH
+|Columbus|110|2010||064|OH
+|Dayton|3|2010||064|OH
+|Kent|2|2010||064|OH
+|Lakewood|5|2010||064|OH
+|Akron|92|2010||104|OH
+|Cincinnati|6|2010||104|OH
+|Cleveland|61|2010||104|OH
+|Columbus|93|2010||104|OH
+|Lakewood|4|2010||104|OH
+|Cincinnati|7|2010||108|OH
+|Columbus|3|2010||108|OH
+|Dayton|12|2010||108|OH
+|Cincinnati|6|2010||140|OH
+|Cincinnati|4|2010||192|OH
+|Cleveland|3|2010||192|OH
+|Cincinnati|1|2010||180|OH
+|Cleveland|9|2010||180|OH
+|Columbus|45|2010||180|OH
+|Dayton|5|2010||180|OH
+|Cincinnati|2|2010||232|OH
+|Cleveland|10|2010||232|OH
+|Columbus|38|2010||232|OH
+|Dayton|12|2010||232|OH
+|Columbus|3|2010||231|OH
+|Cleveland Heights|6|2010||268|OH
+|Columbus|6|2010||324|OH
+|Blacklick|1|2010||364|OH
+|Columbus|3|2010||364|OH
+|Akron|4|2010||368|OH
+|Beachwood|20|2010||368|OH
+|Canton|8|2010||368|OH
+|Cincinnati|11|2010||368|OH
+|Cleveland|51|2010||368|OH
+|Cleveland Heights|11|2010||368|OH
+|Columbus|176|2010||368|OH
+|Dayton|94|2010||368|OH
+|Dublin|6|2010||368|OH
+|Hilliard|11|2010||368|OH
+|Lakewood|4|2010||368|OH
+|Middletown|4|2010||368|OH
+|North Olmsted|1|2010||368|OH
+|Reynoldsburg|3|2010||368|OH
+|Stow|1|2010||368|OH
+|Toledo|8|2010||368|OH
+|Dayton|1|2010||384|OH
+|West Chester|2|2010||400|OH
+|Canal Winchester|1|2010||398|OH
+|Cleveland|14|2010||478|OH
+|Cleveland|1|2010||586|OH
+|Cleveland|4|2010||275|OH
+|Columbus|23|2010||275|OH
+|Lakewood|16|2010||275|OH
+|Parma|3|2010||643|OH
+|Centerville|4|2010||646|OH
+|Columbus|4|2010||646|OH
+|Dayton|17|2010||646|OH
+|Kettering|1|2010||646|OH
+|Columbus|1|2010||694|OH
+|Blacklick|2|2010||706|OH
+|Cincinnati|2|2010||706|OH
+|Cleveland|33|2010||706|OH
+|Columbus|268|2010||706|OH
+|Columbus|1|2010||144|OH
+|Cincinnati|6|2010||729|OH
+|Cleveland|9|2010||729|OH
+|Columbus|8|2010||729|OH
+|Dayton|9|2010||729|OH
+|Columbus|3|2010||792|OH
+|Beachwood|8|2010||804|OH
+|Cleveland|2|2010||804|OH
+|Hartville|4|2010||804|OH
+|Parma|11|2010||804|OH
+|Akron|25|2010||860|OH
+|Stow|5|2010||860|OH
+|Canfield|1|2010||704|OH
+|Columbus|3|2010||704|OH
+|Dayton|7|2010||704|OH
+|Guymon|7|2010||104|OK
+|Jenks|4|2010||104|OK
+|Oklahoma City|73|2010||104|OK
+|Tulsa|51|2010||104|OK
+|Oklahoma City|1|2010||180|OK
+|Oklahoma City|1|2010||232|OK
+|Edmond|2|2010||368|OK
+|Norman|3|2010||368|OK
+|Oklahoma City|53|2010||368|OK
+|Tulsa|2|2010||368|OK
+|Yukon|5|2010||368|OK
+|Oklahoma City|1|2010||430|OK
+|Oklahoma City|3|2010||643|OK
+|Oklahoma City|3|2010||729|OK
+|Oklahoma City|10|2010||704|OK
+|Portland|17|2010||004|OR
+|Portland|3|2010||112|OR
+|Salem|1|2010||112|OR
+|Beaverton|13|2010||064|OR
+|Portland|114|2010||064|OR
+|Portland|277|2010||104|OR
+|Salem|6|2010||104|OR
+|Gresham|3|2010||192|OR
+|Portland|8|2010||192|OR
+|Portland|106|2010||180|OR
+|Portland|22|2010||232|OR
+|Portland|1|2010||231|OR
+|Troutdale|1|2010||231|OR
+|Beaverton|1|2010||364|OR
+|Gresham|1|2010||364|OR
+|Milwaukie|3|2010||364|OR
+|Portland|6|2010||364|OR
+|Tigard|3|2010||364|OR
+|Beaverton|13|2010||368|OR
+|Happy Valley|3|2010||368|OR
+|Lake Oswego|10|2010||368|OR
+|Portland|200|2010||368|OR
+|Portland|9|2010||417|OR
+|Gresham|11|2010||498|OR
+|Portland|14|2010||498|OR
+|Portland|2|2010||275|OR
+|Clackamas|1|2010||643|OR
+|Hillsboro|2|2010||643|OR
+|Portland|19|2010||643|OR
+|Aloha|6|2010||706|OR
+|Aumsville|4|2010||706|OR
+|Beaverton|22|2010||706|OR
+|Portland|196|2010||706|OR
+|Portland|8|2010||729|OR
+|Portland|1|2010||760|OR
+|Portland|1|2010||764|OR
+|Portland|40|2010||804|OR
+|Salem|1|2010||804|OR
+|Portland|8|2010||860|OR
+|Portland|5|2010||704|OR
+|Allentown|2|2010||004|PA
+|Philadelphia|1|2010||004|PA
+|Scranton|3|2010||004|PA
+|Erie|403|2010||064|PA
+|Hanover|5|2010||064|PA
+|Harrisburg|194|2010||064|PA
+|Lancaster|279|2010||064|PA
+|Philadelphia|149|2010||064|PA
+|Pittsburgh|146|2010||064|PA
+|Roslyn|1|2010||064|PA
+|Scranton|127|2010||064|PA
+|Allentown|60|2010||104|PA
+|Bethlehem|2|2010||104|PA
+|Camp Hill|1|2010||104|PA
+|Ephrata|5|2010||104|PA
+|Erie|49|2010||104|PA
+|Folcroft|1|2010||104|PA
+|Harrisburg|4|2010||104|PA
+|Lancaster|112|2010||104|PA
+|Palmyra|1|2010||104|PA
+|Perkasie|2|2010||104|PA
+|Philadelphia|192|2010||104|PA
+|Pittsburgh|16|2010||104|PA
+|Allentown|6|2010||108|PA
+|Lancaster|6|2010||108|PA
+|Philadelphia|1|2010||108|PA
+|Roslyn|1|2010||108|PA
+|Philadelphia|2|2010||156|PA
+|Allentown|1|2010||178|PA
+|Abington|3|2010||192|PA
+|Erie|4|2010||192|PA
+|Harrisburg|3|2010||192|PA
+|Lancaster|6|2010||192|PA
+|Philadelphia|13|2010||192|PA
+|Pittsburgh|6|2010||192|PA
+|Sewickley|4|2010||192|PA
+|Allentown|6|2010||180|PA
+|Erie|34|2010||180|PA
+|Lancaster|5|2010||180|PA
+|Philadelphia|6|2010||180|PA
+|Roslyn|7|2010||180|PA
+|Allentown|18|2010||232|PA
+|Coplay|4|2010||232|PA
+|Erie|14|2010||232|PA
+|Lancaster|4|2010||232|PA
+|Philadelphia|13|2010||232|PA
+|Roslyn|4|2010||232|PA
+|Erie|1|2010||231|PA
+|Lancaster|8|2010||231|PA
+|Philadelphia|3|2010||231|PA
+|Lancaster|1|2010||270|PA
+|Allentown|1|2010||364|PA
+|Carlisle|3|2010||364|PA
+|Hughesville|2|2010||364|PA
+|Philadelphia|2|2010||364|PA
+|State College|3|2010||364|PA
+|Allentown|21|2010||368|PA
+|Belle Vernon|1|2010||368|PA
+|Bethlehem|2|2010||368|PA
+|Broomall|4|2010||368|PA
+|Devon|12|2010||368|PA
+|Elizabethtown|8|2010||368|PA
+|Ephrata|6|2010||368|PA
+|Erie|60|2010||368|PA
+|Jenkintown|6|2010||368|PA
+|King Of Prussia|1|2010||368|PA
+|Lake City|5|2010||368|PA
+|Lancaster|37|2010||368|PA
+|Langhorne|1|2010||368|PA
+|Lititz|9|2010||368|PA
+|Paoli|4|2010||368|PA
+|Philadelphia|173|2010||368|PA
+|Phoenixville|2|2010||368|PA
+|Pittsburgh|21|2010||368|PA
+|Pottstown|1|2010||368|PA
+|Scranton|6|2010||368|PA
+|Swarthmore|3|2010||368|PA
+|West Chester|3|2010||368|PA
+|Wexford|6|2010||368|PA
+|Bristol|1|2010||430|PA
+|Collingdale|3|2010||430|PA
+|Darby|1|2010||430|PA
+|East Lansdowne|4|2010||430|PA
+|Philadelphia|25|2010||430|PA
+|Upper Darby|2|2010||430|PA
+|Philadelphia|4|2010||498|PA
+|Lancaster|2|2010||275|PA
+|Philadelphia|35|2010||275|PA
+|Lititz|3|2010||643|PA
+|Philadelphia|3|2010||643|PA
+|Roslyn|2|2010||646|PA
+|Philadelphia|1|2010||694|PA
+|Allentown|10|2010||706|PA
+|Erie|13|2010||706|PA
+|Harrisburg|1|2010||706|PA
+|Mechanicsburg|13|2010||706|PA
+|Erie|19|2010||729|PA
+|Harrisburg|4|2010||729|PA
+|Lancaster|3|2010||729|PA
+|Philadelphia|12|2010||729|PA
+|Philadelphia|1|2010||764|PA
+|Erie|2|2010||804|PA
+|Philadelphia|10|2010||804|PA
+|Erie|1|2010||860|PA
+|Pittsburgh|3|2010||860|PA
+|Trujillo Alto|4|2010||192|PR
+|Providence|70|2010||064|RI
+|Providence|44|2010||104|RI
+|Providence|11|2010||108|RI
+|Providence|5|2010||180|RI
+|Providence|29|2010||232|RI
+|Providence|1|2010||231|RI
+|Providence|1|2010||270|RI
+|Providence|2|2010||364|RI
+|Pawtucket|1|2010||368|RI
+|Providence|15|2010||368|RI
+|Tiverton|9|2010||368|RI
+|Cranston|1|2010||430|RI
+|Providence|7|2010||430|RI
+|Providence|7|2010||478|RI
+|Providence|1|2010||643|RI
+|Columbia|10|2010||004|SC
+|Columbia|2|2010||112|SC
+|Columbia|1|2010||064|SC
+|Columbia|104|2010||104|SC
+|Columbia|8|2010||232|SC
+|Aiken|4|2010||364|SC
+|Columbia|24|2010||368|SC
+|Columbia|5|2010||275|SC
+|Columbia|1|2010||706|SC
+|Sioux Falls|1|2010||004|SD
+|Sioux Falls|123|2010||064|SD
+|Huron|113|2010||104|SD
+|Sioux Falls|47|2010||104|SD
+|Sioux Falls|7|2010||108|SD
+|Sioux Falls|10|2010||148|SD
+|Sioux Falls|53|2010||180|SD
+|Sioux Falls|94|2010||232|SD
+|Sioux Falls|11|2010||231|SD
+|Sioux Falls|74|2010||368|SD
+|Sioux Falls|3|2010||430|SD
+|Sioux Falls|10|2010||275|SD
+|Sioux Falls|20|2010||706|SD
+|Sioux Falls|16|2010||729|SD
+|Memphis|5|2010||004|TN
+|Nashville|1|2010||050|TN
+|Memphis|19|2010||064|TN
+|Nashville|221|2010||064|TN
+|Franklin|7|2010||104|TN
+|Knoxville|19|2010||104|TN
+|La Vergne|5|2010||104|TN
+|Memphis|20|2010||104|TN
+|Nashville|330|2010||104|TN
+|Smyrna|8|2010||104|TN
+|Chattanooga|6|2010||108|TN
+|Knoxville|7|2010||108|TN
+|Nashville|7|2010||108|TN
+|Chattanooga|1|2010||148|TN
+|Memphis|1|2010||156|TN
+|Chattanooga|13|2010||170|TN
+|Antioch|11|2010||192|TN
+|Chattanooga|30|2010||192|TN
+|Memphis|1|2010||192|TN
+|Nashville|35|2010||192|TN
+|Pulaski|1|2010||192|TN
+|Memphis|1|2010||180|TN
+|Nashville|33|2010||180|TN
+|Cordova|1|2010||232|TN
+|Memphis|22|2010||232|TN
+|Nashville|37|2010||232|TN
+|Knoxville|1|2010||231|TN
+|Nashville|4|2010||231|TN
+|Memphis|1|2010||270|TN
+|Antioch|8|2010||364|TN
+|Knoxville|1|2010||364|TN
+|Nashville|8|2010||364|TN
+|Antioch|25|2010||368|TN
+|Bartlett|2|2010||368|TN
+|Chattanooga|56|2010||368|TN
+|Clarksville|9|2010||368|TN
+|Cookeville|3|2010||368|TN
+|Fairview|3|2010||368|TN
+|Hermitage|1|2010||368|TN
+|Knoxville|141|2010||368|TN
+|La Vergne|8|2010||368|TN
+|Memphis|34|2010||368|TN
+|Nashville|229|2010||368|TN
+|Old Hickory|1|2010||368|TN
+|Smyrna|1|2010||368|TN
+|Nashville|4|2010||408|TN
+|Antioch|1|2010||430|TN
+|Johnson City|2|2010||430|TN
+|Nashville|1|2010||586|TN
+|Memphis|1|2010||275|TN
+|Nashville|12|2010||275|TN
+|Knoxville|5|2010||646|TN
+|Knoxville|3|2010||706|TN
+|Memphis|56|2010||706|TN
+|Nashville|78|2010||706|TN
+|Chattanooga|7|2010||729|TN
+|Nashville|10|2010||729|TN
+|Chattanooga|5|2010||860|TN
+|Nashville|1|2010||704|TN
+|Amarillo|7|2010||004|TX
+|Austin|1|2010||004|TX
+|Dallas|6|2010||004|TX
+|Houston|6|2010||004|TX
+|San Antonio|13|2010||004|TX
+|Sugar Land|1|2010||004|TX
+|Houston|2|2010||031|TX
+|Abilene|70|2010||064|TX
+|Austin|127|2010||064|TX
+|Dallas|276|2010||064|TX
+|Fort Worth|228|2010||064|TX
+|Haltom City|10|2010||064|TX
+|Houston|304|2010||064|TX
+|San Antonio|122|2010||064|TX
+|Amarillo|388|2010||104|TX
+|Arlington|8|2010||104|TX
+|Austin|160|2010||104|TX
+|Beaumont|3|2010||104|TX
+|Bedford|6|2010||104|TX
+|Cactus|8|2010||104|TX
+|Carrollton|11|2010||104|TX
+|Cedar Hill|4|2010||104|TX
+|Dallas|583|2010||104|TX
+|Dumas|10|2010||104|TX
+|El Paso|1|2010||104|TX
+|Fort Worth|344|2010||104|TX
+|Garland|14|2010||104|TX
+|Houston|565|2010||104|TX
+|Howe|6|2010||104|TX
+|Irving|4|2010||104|TX
+|Lewisville|98|2010||104|TX
+|Midland|14|2010||104|TX
+|San Antonio|137|2010||104|TX
+|Abilene|7|2010||108|TX
+|Amarillo|13|2010||108|TX
+|Dallas|8|2010||108|TX
+|Fort Worth|21|2010||108|TX
+|Houston|38|2010||108|TX
+|San Antonio|12|2010||108|TX
+|Dallas|7|2010||116|TX
+|Houston|5|2010||148|TX
+|San Antonio|8|2010||148|TX
+|Amarillo|3|2010||156|TX
+|Austin|3|2010||156|TX
+|Dallas|1|2010||156|TX
+|Fort Worth|1|2010||156|TX
+|Dallas|1|2010||170|TX
+|Houston|15|2010||170|TX
+|Abilene|1|2010||178|TX
+|Houston|11|2010||178|TX
+|Abilene|9|2010||192|TX
+|Allen|5|2010||192|TX
+|Amarillo|8|2010||192|TX
+|Arlington|7|2010||192|TX
+|Austin|57|2010||192|TX
+|Dallas|64|2010||192|TX
+|Del Valle|1|2010||192|TX
+|Fort Worth|12|2010||192|TX
+|Garland|4|2010||192|TX
+|Houston|149|2010||192|TX
+|Katy|1|2010||192|TX
+|Keller|4|2010||192|TX
+|Leander|5|2010||192|TX
+|Mesquite|1|2010||192|TX
+|Pflugerville|3|2010||192|TX
+|Porter|6|2010||192|TX
+|Round Rock|1|2010||192|TX
+|San Antonio|5|2010||192|TX
+|Abilene|56|2010||180|TX
+|Amarillo|35|2010||180|TX
+|Austin|63|2010||180|TX
+|Dallas|15|2010||180|TX
+|Fort Worth|136|2010||180|TX
+|Houston|169|2010||180|TX
+|Irving|1|2010||180|TX
+|San Antonio|81|2010||180|TX
+|Fort Worth|1|2010||818|TX
+|Allen|2|2010||232|TX
+|Amarillo|23|2010||232|TX
+|Austin|13|2010||232|TX
+|Carrollton|1|2010||232|TX
+|Dallas|29|2010||232|TX
+|Euless|1|2010||232|TX
+|Fort Worth|64|2010||232|TX
+|Houston|154|2010||232|TX
+|Irving|1|2010||232|TX
+|Mesquite|1|2010||232|TX
+|Murphy|1|2010||232|TX
+|San Antonio|61|2010||232|TX
+|Stafford|1|2010||232|TX
+|Amarillo|7|2010||231|TX
+|Austin|1|2010||231|TX
+|Dallas|2|2010||231|TX
+|Fort Worth|5|2010||231|TX
+|Houston|39|2010||231|TX
+|Irving|3|2010||231|TX
+|San Antonio|15|2010||231|TX
+|Austin|1|2010||266|TX
+|Allen|1|2010||364|TX
+|Amarillo|24|2010||364|TX
+|Arlington|3|2010||364|TX
+|Austin|21|2010||364|TX
+|Boerne|4|2010||364|TX
+|Dallas|20|2010||364|TX
+|Fort Worth|8|2010||364|TX
+|Frisco|2|2010||364|TX
+|Houston|27|2010||364|TX
+|Irving|2|2010||364|TX
+|Keller|1|2010||364|TX
+|Leander|3|2010||364|TX
+|Mckinney|2|2010||364|TX
+|Pflugerville|2|2010||364|TX
+|Plano|21|2010||364|TX
+|Round Rock|1|2010||364|TX
+|San Antonio|36|2010||364|TX
+|Abilene|11|2010||368|TX
+|Allen|13|2010||368|TX
+|Amarillo|77|2010||368|TX
+|Andrews|1|2010||368|TX
+|Arlington|27|2010||368|TX
+|Austin|191|2010||368|TX
+|Bedford|3|2010||368|TX
+|Carrollton|1|2010||368|TX
+|College Station|4|2010||368|TX
+|Dallas|258|2010||368|TX
+|Denton|4|2010||368|TX
+|Desoto|1|2010||368|TX
+|El Paso|15|2010||368|TX
+|Euless|2|2010||368|TX
+|Fort Worth|184|2010||368|TX
+|Garland|2|2010||368|TX
+|Houston|477|2010||368|TX
+|Humble|1|2010||368|TX
+|Irving|16|2010||368|TX
+|Katy|12|2010||368|TX
+|Lake Jackson|4|2010||368|TX
+|League City|1|2010||368|TX
+|Lewisville|14|2010||368|TX
+|Mansfield|2|2010||368|TX
+|Mckinney|2|2010||368|TX
+|Mesquite|3|2010||368|TX
+|Midland|3|2010||368|TX
+|Missouri City|6|2010||368|TX
+|Montgomery|1|2010||368|TX
+|New Caney|11|2010||368|TX
+|North Richland Hills|4|2010||368|TX
+|Pasadena|7|2010||368|TX
+|Pearland|5|2010||368|TX
+|Pflugerville|4|2010||368|TX
+|Red Oak|1|2010||368|TX
+|Richardson|18|2010||368|TX
+|Saginaw|3|2010||368|TX
+|San Antonio|171|2010||368|TX
+|San Marcos|2|2010||368|TX
+|Sherman|1|2010||368|TX
+|Spring|4|2010||368|TX
+|Stafford|4|2010||368|TX
+|Sugar Land|10|2010||368|TX
+|The Woodlands|4|2010||368|TX
+|Woodlands|4|2010||368|TX
+|Fort Worth|1|2010||384|TX
+|Amarillo|11|2010||414|TX
+|San Antonio|10|2010||414|TX
+|Dallas|3|2010||430|TX
+|Houston|7|2010||430|TX
+|San Antonio|1|2010||430|TX
+|Fort Worth|2|2010||458|TX
+|Dallas|13|2010||478|TX
+|Houston|13|2010||478|TX
+|Houston|10|2010||586|TX
+|Austin|37|2010||275|TX
+|Dallas|38|2010||275|TX
+|Fort Worth|27|2010||275|TX
+|Houston|92|2010||275|TX
+|San Antonio|11|2010||275|TX
+|Fort Worth|7|2010||643|TX
+|Houston|2|2010||643|TX
+|Abilene|2|2010||646|TX
+|Amarillo|3|2010||646|TX
+|Fort Worth|19|2010||646|TX
+|Houston|15|2010||646|TX
+|Houston|5|2010||694|TX
+|Amarillo|95|2010||706|TX
+|Austin|21|2010||706|TX
+|Dallas|57|2010||706|TX
+|Fort Worth|90|2010||706|TX
+|Houston|81|2010||706|TX
+|Mesquite|2|2010||706|TX
+|San Antonio|129|2010||706|TX
+|Fort Worth|17|2010||144|TX
+|San Antonio|4|2010||144|TX
+|Amarillo|5|2010||729|TX
+|Austin|6|2010||729|TX
+|Dallas|5|2010||729|TX
+|Fort Worth|1|2010||729|TX
+|Houston|15|2010||729|TX
+|Irving|1|2010||729|TX
+|Fort Worth|3|2010||760|TX
+|Houston|1|2010||760|TX
+|San Antonio|1|2010||760|TX
+|Dallas|1|2010||764|TX
+|Fort Worth|3|2010||795|TX
+|Euless|2|2010||800|TX
+|Houston|1|2010||800|TX
+|Frisco|2|2010||804|TX
+|Dallas|2|2010||860|TX
+|Cedar Hill|2|2010||704|TX
+|Channelview|1|2010||704|TX
+|Dallas|15|2010||704|TX
+|Houston|32|2010||704|TX
+|Sugar Land|2|2010||704|TX
+|Austin|1|2010||887|TX
+|Salt Lake City|6|2010||004|UT
+|Murray|2|2010||064|UT
+|Salt Lake City|232|2010||064|UT
+|Holladay|4|2010||104|UT
+|Logan|23|2010||104|UT
+|Salt Lake City|191|2010||104|UT
+|West Valley City|6|2010||104|UT
+|Salt Lake City|11|2010||108|UT
+|Salt Lake City|5|2010||140|UT
+|Salt Lake City|11|2010||192|UT
+|Salt Lake City|48|2010||180|UT
+|Logan|1|2010||232|UT
+|Salt Lake City|41|2010||232|UT
+|Salt Lake City|19|2010||231|UT
+|Salt Lake City|3|2010||268|UT
+|Salt Lake City|1|2010||324|UT
+|Midvale|2|2010||364|UT
+|Park City|1|2010||364|UT
+|Salt Lake City|18|2010||364|UT
+|Sandy|8|2010||364|UT
+|Eagle Mountain|1|2010||368|UT
+|Holladay|6|2010||368|UT
+|Magna|7|2010||368|UT
+|Midvale|3|2010||368|UT
+|Murray|1|2010||368|UT
+|Salt Lake City|150|2010||368|UT
+|Taylorsville|1|2010||368|UT
+|West Valley City|18|2010||368|UT
+|Salt Lake City|1|2010||408|UT
+|Salt Lake City|1|2010||430|UT
+|Murray|6|2010||275|UT
+|Salt Lake City|5|2010||275|UT
+|Salt Lake City|12|2010||646|UT
+|Salt Lake City|143|2010||706|UT
+|Taylorsville|1|2010||706|UT
+|West Valley City|2|2010||706|UT
+|Salt Lake City|3|2010||144|UT
+|West Jordan|6|2010||144|UT
+|Salt Lake City|20|2010||729|UT
+|Salt Lake City|1|2010||887|UT
+|Burlington|91|2010||064|VT
+|Colchester|28|2010||064|VT
+|South Burlington|7|2010||064|VT
+|Winooski|34|2010||064|VT
+|Burlington|23|2010||104|VT
+|Colchester|26|2010||104|VT
+|Burlington|10|2010||180|VT
+|Colchester|6|2010||180|VT
+|Colchester|8|2010||368|VT
+|Essex Junction|6|2010||368|VT
+|Colchester|9|2010||706|VT
+|Burlington|1|2010||729|VT
+|Charlottesville|18|2010||004|VA
+|Dumfries|4|2010||004|VA
+|Falls Church|1|2010||004|VA
+|Harrisonburg|4|2010||004|VA
+|Leesburg|3|2010||004|VA
+|Richmond|4|2010||004|VA
+|Arlington|2|2010||064|VA
+|Charlottesville|59|2010||064|VA
+|Fredericksburg|30|2010||064|VA
+|Hampton|56|2010||064|VA
+|Newport News|49|2010||064|VA
+|Richmond|119|2010||064|VA
+|Roanoke|127|2010||064|VA
+|Alexandria|2|2010||104|VA
+|Ashburn|7|2010||104|VA
+|Charlottesville|29|2010||104|VA
+|Chesterfield|1|2010||104|VA
+|Fairfax|3|2010||104|VA
+|Falls Church|2|2010||104|VA
+|Hampton|56|2010||104|VA
+|Mechanicsville|1|2010||104|VA
+|Newport News|1|2010||104|VA
+|Richmond|34|2010||104|VA
+|Roanoke|4|2010||104|VA
+|Virginia Beach|5|2010||104|VA
+|Richmond|1|2010||108|VA
+|Charlottesville|1|2010||156|VA
+|Richmond|1|2010||156|VA
+|Harrisonburg|3|2010||170|VA
+|Newport News|3|2010||170|VA
+|Charlottesville|2|2010||178|VA
+|Newport News|55|2010||192|VA
+|Roanoke|6|2010||192|VA
+|Vinton|8|2010||192|VA
+|Charlottesville|23|2010||180|VA
+|Falls Church|5|2010||180|VA
+|Hampton|5|2010||180|VA
+|Richmond|8|2010||180|VA
+|Alexandria|2|2010||232|VA
+|Arlington|3|2010||232|VA
+|Falls Church|5|2010||232|VA
+|Hampton|4|2010||232|VA
+|Harrisonburg|16|2010||232|VA
+|Richmond|22|2010||232|VA
+|Springfield|1|2010||232|VA
+|Virginia Beach|1|2010||232|VA
+|Falls Church|2|2010||231|VA
+|Harrisonburg|1|2010||231|VA
+|Richmond|7|2010||231|VA
+|Fairfax|1|2010||270|VA
+|Annandale|3|2010||364|VA
+|Centreville|3|2010||364|VA
+|Fairfax|3|2010||364|VA
+|Falls Church|20|2010||364|VA
+|Herndon|2|2010||364|VA
+|Newport News|4|2010||364|VA
+|Richmond|1|2010||364|VA
+|Roanoke|6|2010||364|VA
+|Springfield|4|2010||364|VA
+|Virginia Beach|2|2010||364|VA
+|Alexandria|35|2010||368|VA
+|Annandale|1|2010||368|VA
+|Arlington|20|2010||368|VA
+|Bristow|4|2010||368|VA
+|Chantilly|2|2010||368|VA
+|Charles City|4|2010||368|VA
+|Charlottesville|38|2010||368|VA
+|Chesapeake|8|2010||368|VA
+|Fairfax|14|2010||368|VA
+|Falls Church|86|2010||368|VA
+|Fredericksburg|5|2010||368|VA
+|Gainesville|4|2010||368|VA
+|Glen Allen|6|2010||368|VA
+|Hampton|39|2010||368|VA
+|Harrisonburg|151|2010||368|VA
+|Herndon|6|2010||368|VA
+|Midlothian|1|2010||368|VA
+|Newport News|28|2010||368|VA
+|Norfolk|3|2010||368|VA
+|Reston|5|2010||368|VA
+|Richmond|58|2010||368|VA
+|Roanoke|16|2010||368|VA
+|Springfield|10|2010||368|VA
+|Sterling|11|2010||368|VA
+|Vienna|3|2010||368|VA
+|Woodbridge|4|2010||368|VA
+|Yorktown|2|2010||368|VA
+|Harrisonburg|2|2010||398|VA
+|Richmond|1|2010||430|VA
+|Roanoke|6|2010||586|VA
+|Charlottesville|34|2010||275|VA
+|Harrisonburg|5|2010||275|VA
+|Richmond|5|2010||275|VA
+|Ashburn|2|2010||643|VA
+|Richmond|4|2010||643|VA
+|Alexandria|2|2010||694|VA
+|Ashburn|8|2010||706|VA
+|Falls Church|6|2010||706|VA
+|Richmond|2|2010||706|VA
+|Annandale|1|2010||760|VA
+|Harrisonburg|11|2010||804|VA
+|Newport News|1|2010||784|VA
+|Richmond|1|2010||860|VA
+|Culpeper|3|2010||704|VA
+|Springfield|1|2010||704|VA
+|Kent|5|2010||004|WA
+|Seattle|5|2010||004|WA
+|Spokane|5|2010||004|WA
+|Federal Way|4|2010||112|WA
+|Burien|8|2010||064|WA
+|Everett|4|2010||064|WA
+|Kent|98|2010||064|WA
+|Seatac|8|2010||064|WA
+|Seattle|227|2010||064|WA
+|Spokane|100|2010||064|WA
+|Tukwila|46|2010||064|WA
+|Burien|2|2010||104|WA
+|Covington|3|2010||104|WA
+|Everett|4|2010||104|WA
+|Federal Way|2|2010||104|WA
+|Kennewick|6|2010||104|WA
+|Kent|96|2010||104|WA
+|Renton|2|2010||104|WA
+|Richland|28|2010||104|WA
+|Seatac|3|2010||104|WA
+|Seattle|346|2010||104|WA
+|Spokane|181|2010||104|WA
+|Tukwila|12|2010||104|WA
+|Vancouver|88|2010||104|WA
+|Pasco|1|2010||170|WA
+|Richland|2|2010||170|WA
+|Seattle|7|2010||178|WA
+|Kennewick|7|2010||192|WA
+|Richland|28|2010||192|WA
+|Spokane|9|2010||192|WA
+|Seattle|50|2010||180|WA
+|Spokane|30|2010||180|WA
+|Seattle|2|2010||818|WA
+|Burien|1|2010||232|WA
+|Kirkland|1|2010||232|WA
+|Lynnwood|1|2010||232|WA
+|Mercer Island|1|2010||232|WA
+|Seatac|1|2010||232|WA
+|Seattle|120|2010||232|WA
+|Shoreline|6|2010||232|WA
+|Spokane|26|2010||232|WA
+|Tacoma|2|2010||232|WA
+|Tukwila|4|2010||232|WA
+|Vancouver|3|2010||232|WA
+|Seatac|2|2010||231|WA
+|Seattle|34|2010||231|WA
+|Spokane|2|2010||231|WA
+|Issaquah|10|2010||364|WA
+|Kenmore|1|2010||364|WA
+|Kent|26|2010||364|WA
+|Kirkland|11|2010||364|WA
+|Lynnwood|1|2010||364|WA
+|Redmond|4|2010||364|WA
+|Renton|2|2010||364|WA
+|Seattle|13|2010||364|WA
+|Bellingham|4|2010||368|WA
+|Burien|7|2010||368|WA
+|Des Moines|1|2010||368|WA
+|Everett|6|2010||368|WA
+|Kennewick|48|2010||368|WA
+|Kent|164|2010||368|WA
+|Lynnwood|7|2010||368|WA
+|Olympia|1|2010||368|WA
+|Puyallup|1|2010||368|WA
+|Renton|13|2010||368|WA
+|Richland|22|2010||368|WA
+|Sammamish|1|2010||368|WA
+|Seatac|7|2010||368|WA
+|Seattle|234|2010||368|WA
+|Shoreline|4|2010||368|WA
+|Spokane|73|2010||368|WA
+|Tacoma|4|2010||368|WA
+|Tukwila|8|2010||368|WA
+|Vancouver|9|2010||368|WA
+|Auburn|1|2010||398|WA
+|Spokane|3|2010||398|WA
+|Vancouver|3|2010||398|WA
+|Seattle|1|2010||408|WA
+|Seattle|12|2010||417|WA
+|Spokane|2|2010||417|WA
+|Deer Park|5|2010||418|WA
+|Everett|4|2010||498|WA
+|Kennewick|4|2010||498|WA
+|Kirkland|2|2010||498|WA
+|Renton|7|2010||498|WA
+|Seattle|2|2010||498|WA
+|Spokane|12|2010||498|WA
+|Tacoma|23|2010||498|WA
+|University Place|11|2010||498|WA
+|Vancouver|8|2010||498|WA
+|Richland|5|2010||275|WA
+|Seattle|4|2010||275|WA
+|Bellevue|1|2010||643|WA
+|Ferndale|3|2010||643|WA
+|Kent|6|2010||643|WA
+|Renton|9|2010||643|WA
+|Seattle|5|2010||643|WA
+|Spokane|12|2010||643|WA
+|Tacoma|3|2010||643|WA
+|Vancouver|9|2010||643|WA
+|Seattle|10|2010||646|WA
+|Auburn|1|2010||706|WA
+|Burien|1|2010||706|WA
+|Kennewick|10|2010||706|WA
+|Kent|30|2010||706|WA
+|Richland|8|2010||706|WA
+|Seatac|1|2010||706|WA
+|Seattle|128|2010||706|WA
+|Spokane|2|2010||706|WA
+|Tacoma|1|2010||706|WA
+|Tukwila|11|2010||706|WA
+|Richland|1|2010||729|WA
+|Tukwila|3|2010||729|WA
+|Shoreline|1|2010||768|WA
+|Auburn|9|2010||804|WA
+|Bellingham|2|2010||804|WA
+|Burbank|3|2010||804|WA
+|Burien|1|2010||804|WA
+|College Place|5|2010||804|WA
+|Everett|6|2010||804|WA
+|Federal Way|14|2010||804|WA
+|Kent|13|2010||804|WA
+|Mount Vernon|1|2010||804|WA
+|Renton|3|2010||804|WA
+|Richland|1|2010||804|WA
+|Seattle|38|2010||804|WA
+|Spokane|15|2010||804|WA
+|Tacoma|18|2010||804|WA
+|Vancouver|12|2010||804|WA
+|Richland|7|2010||860|WA
+|Spokane|2|2010||860|WA
+|Edmonds|2|2010||704|WA
+|Kent|6|2010||704|WA
+|Seattle|1|2010||704|WA
+|Moorefield|4|2010||104|WV
+|Charleston|7|2010||368|WV
+|South Charleston|1|2010||368|WV
+|Madison|2|2010||004|WI
+|Milwaukee|5|2010||004|WI
+|Milwaukee|1|2010||112|WI
+|Madison|78|2010||064|WI
+|Milwaukee|5|2010||064|WI
+|Burlington|6|2010||104|WI
+|Milwaukee|355|2010||104|WI
+|Sheboygan|12|2010||104|WI
+|Waukesha|10|2010||104|WI
+|Milwaukee|3|2010||108|WI
+|Madison|2|2010||192|WI
+|Milwaukee|3|2010||192|WI
+|Milwaukee|26|2010||180|WI
+|Milwaukee|55|2010||232|WI
+|Milwaukee|3|2010||231|WI
+|Cudahy|1|2010||368|WI
+|Madison|3|2010||368|WI
+|Milwaukee|97|2010||368|WI
+|Oak Creek|3|2010||368|WI
+|Oshkosh|14|2010||368|WI
+|Waukesha|1|2010||368|WI
+|Appleton|7|2010||418|WI
+|Richfield|9|2010||418|WI
+|Wausau|9|2010||418|WI
+|Milwaukee|48|2010||275|WI
+|Milwaukee|7|2010||646|WI
+|Green Bay|19|2010||706|WI
+|Milwaukee|38|2010||706|WI
+|Sheboygan|7|2010||706|WI
+|Milwaukee|1|2010||144|WI
+|Milwaukee|7|2010||729|WI
+|Milwaukee|2|2010||804|WI
+|Milwaukee|7|2010||704|WI

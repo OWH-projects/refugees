@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta name="description" content="XXXXXXXXXX">
    
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %}{% endblock %}Refugee resettlements in the U.S. - Omaha World-Herald - Omaha.com - Dataomaha.com</title>
 
     {% block social %}
 	<meta property="og:title" content="XXXXXXXXXX">
@@ -19,17 +19,37 @@
     <!-- Twitter Card - Large image // Docs: https://dev.twitter.com/cards/types/summary-large-image -->	
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@OWHnews">
-	<meta name="twitter:creator" content="@OWHnews"><!-- change this to author's account, if applicable -->
-	<meta name="twitter:title" content="">
-	<meta name="twitter:description" content="">
+	<meta name="twitter:creator" content="@cody_winchester">
+	<meta name="twitter:title" content="Refugee resettlements in the U.S.">
+	<meta name="twitter:description" content="Data on refugees resettled in the United States since 2002.">
 	<meta name="twitter:image:src" content="">
     {% endblock %}
 	
     <!-- Bootstrap base layer -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700italic,400italic,700,300' rel='stylesheet' type='text/css'>
+    <style>
+     html, body { font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #fff;}
+     .jumbotron { background:#6e98b6; margin:50px auto 20px auto; padding-top:5px; padding-bottom:15px; color:#fff; }
+     @font-face {
+         font-family: 'StateFaceRegular';
+         src: url('/static/stateface/stateface-regular-webfont.eot');
+         src: url('/static/stateface/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+              url('/static/stateface/stateface-regular-webfont.woff') format('woff'),
+              url('/static/stateface/stateface-regular-webfont.ttf') format('truetype'),
+              url('/static/stateface/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+         font-weight: normal;
+         font-style: normal;
+     }
+     .sf { font-family:'StateFaceRegular'; }
+     .credits, .notes { color:#aaa; margin:40px auto 40px auto; }
+     .bold { font-weight:bold; }
+     .land { fill: #000; }
+     .boundary { fill: none; stroke: #fff; stroke-width: .5px;}
+     .mapcontainer { margin-bottom:30px; background: #6e98b6;}
+     {% block styles %}{% endblock %}
+    </style>
+    
     {% block morestyles %}{% endblock %}
     
     <!-- Font Awesome icons, v4.4 -->
@@ -76,7 +96,7 @@
 
   <body data-spy="scroll" data-target=".navbar-scroller">
 
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -85,24 +105,25 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">XXXXXXXXXXXXXXX</a>
+          <a class="navbar-brand" href="/refugees">Refugees</a>
         </div>
         <div class="collapse navbar-collapse">
-		<ul class="nav navbar-nav navbar-scroller">
-            <li><a href="#menu-1" title="menu-1" style="margin-top: 2px;">Menu 1</a></li>
-            <li><a href="#menu-2" title="menu-2" style="margin-top: 2px;">Menu 2</a></li>
-            <li><a href="#menu-3" title="menu-3" style="margin-top: 2px;">Menu 3</a></li>
-          </ul>
-		<a class="navbar-right" href="http://omaha.com" target="_blank"><img class="logo" src="http://dataomaha.com/media/logo-owh-white.png" style="width: 150px; padding: 15px 0;"></a>
+		<a class="navbar-right" href="http://omaha.com" target="_blank"><img class="logo" src="http://dataomaha.com/media/logo-owh-black.png" style="width: 150px; padding: 15px 0;"></a>
         </div><!--/.nav-collapse -->
       </div>
     </div>
         {% block content %}{% endblock %}
+        
+    <div class="container credits">
+    <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">Refugee Processing Center</a>&ensp;&bull;&ensp;<a href="http://www.twitter.com/dataomaha" target="_blank">Follow @dataomaha on Twitter</a></p>
+    </div>
 	</body>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="http://www.dataomaha.com/media/scripts/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
     {% block scripts %}{% endblock %}
   
 	<!-- Chartbeat -->
@@ -139,10 +160,10 @@
 	<script language="JavaScript" type="text/javascript" src="http://bloximages.newyork1.vip.townnews.com/omaha.com/content/tncms/live/global/resources/scripts/omniture/visitorapi.js"></script>
 
 	<script language="JavaScript" type="text/javascript"><!--
-	  s.pageName="XXXX" // use the page title
-	  s.server="XXXX" // which domain is this page on?
-	  s.channel="XXXX" // top-level Blox section tag - news, huskers, money, etc.
-	  s.pageType="article" // not an article? what type of asset?
+	  s.pageName=document.title; // use the page title
+	  s.server="dataomaha.com"; // which domain is this page on?
+	  s.channel="news"; // top-level Blox section tag - news, huskers, money, etc.
+	  s.pageType="app"; // not an article? what type of asset?
 	  var s_code=s.t();if(s_code)document.write(s_code)//-->
 	</script>   
 

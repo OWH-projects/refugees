@@ -1,0 +1,130 @@
+{% extends 'refugees/base.html' %}
+{% load humanize %}
+
+{% block styles %}
+#chart { width: 100%; height: 200px; margin-bottom:30px;}
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+    <h3 class="bold">{% if first.stateabbr.stateface %}<span class="sf">{{ first.stateabbr.stateface }}</span>&ensp;{% endif %}{{ first.stateabbr.statename }}</h3>
+    </div>
+</div>
+
+<div class="container" style="margin:70px auto 30px auto;">
+<p class="lead">Since 2002, <strong>{{ state_total.num__sum|intcomma }}</strong> refugee{{ state_total.num__sum|pluralize }} {{ state_total.num__sum|pluralize:"has,have" }} been resettled in {% if first.stateabb != "DC" %}<strong>{{ sum_by_city.count }}</strong> {{ first.state }} cit{{ sum_by_city.count|pluralize:"y,ies" }} in {{ first.stateabbr.statename }}{% else %}the District of Columbia{% endif %}.</p>
+
+<div class="row" style="margin-top:35px;">
+    <div class="col-md-6">
+        <div id="chart"></div>
+        <div id="statemap"></div>
+        <div id="citylist">
+        <table class="table lead" style="margin-top:30px;">
+        {% for city in sum_by_city %}
+        <tr>
+            <td>{{ city.city }}</td>
+            <td>{{ city.num__sum|intcomma }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+        </div>        
+    </div>
+
+    <div class="col-md-5 col-md-offset-1">
+        <div class="well">
+        <h3><span class="sf">z</span>&ensp;Select another state</h3>
+        <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/state/' + this.value">
+            <option value="">--</option>
+        {% for state in list_of_states %}
+            <option value="{{ state.stateabbr|lower }}">{{ state.stateabbr__statename }}</option>
+        {% endfor %}
+        </select>
+        <h3 style="margin-top:50px;"><i class="fa fa-map-marker"></i>&ensp;Select a country</h3>
+        <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/country/' + this.value">>
+        <option value="">--</option>
+        {% for country in sum_by_country %}
+            <option value="{{ country.countrycode }}">{{ country.countrycode__name }}</option>
+        {% endfor %}
+        </select>
+        </div>
+    </div>
+</div>
+
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.min.js"></script>
+<script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.time.min.js"></script>
+<script src="http://www.dataomaha.com/media/stateface/stateface.js"></script>
+<script>
+
+var getYear = function(y) {
+    return new Date(y, 0, 1).getTime();
+}
+
+var d1 = [{% for dude in sum_by_year %}[getYear({{dude.year}}), {{ dude.num__sum }}]{% if not forloop.last %},{% endif %}{% endfor %}];
+
+function addCommas(nStr)
+    {
+        nStr += '';
+        x = nStr.split('.');
+        x1 = x[0];
+        x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+            }
+        return x1 + x2;
+    }
+
+function formatter(val, axis) {
+    return addCommas(val);
+}
+
+var chartIt = function() {
+    $.plot($("#chart"), [d1], {
+        series: {
+            bars: {
+                show: true,
+				fillColor: '#c8d8e3',
+                align: "center"
+            },
+          color: "#fff"
+        },
+        bars: { barWidth: 60*60*24*365*1000 },
+        shadowSize: 0,
+        xaxis: {
+            min: (new Date(2001, 6, 0)).getTime(),
+            max: (new Date(2015, 6, 0)).getTime(),
+            mode: "time",
+            tickLength: 0,
+            ticks: 3
+        },
+        yaxis: {
+            tickFormatter: formatter
+        },        
+        grid: {
+            borderWidth: 0.5,
+            axisMargin: 0,
+            borderColor: '#eee',
+            color: '#eee',
+            labelMargin:15
+            }
+    });
+};
+
+
+$(document).ready(function() {
+    chartIt();
+});
+    
+window.onresize = function() {
+    chartIt();
+};
+
+</script>
+{% endblock %}
+
