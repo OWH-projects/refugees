@@ -42,4 +42,4 @@ class Refugee(models.Model):
         db_table = u'refugees'
 
     def __unicode__(self):
-        return self.city + ", " + self.stateabbr + ": " + str(self.num)
+        return self.city + ": " + str(self.num)

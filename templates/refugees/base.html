@@ -42,7 +42,7 @@
          font-style: normal;
      }
      .sf { font-family:'StateFaceRegular'; }
-     .credits, .notes { color:#aaa; margin:40px auto 40px auto; }
+     .credits, .notes { color:#aaa; }
      .bold { font-weight:bold; }
      .land { fill: #000; }
      .boundary { fill: none; stroke: #fff; stroke-width: .5px;}
@@ -96,7 +96,7 @@
 
   <body data-spy="scroll" data-target=".navbar-scroller">
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -105,18 +105,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/refugees">Refugees</a>
+          <a class="navbar-brand" href="/refugees">Refugee resettlement</a>
         </div>
         <div class="collapse navbar-collapse">
-		<a class="navbar-right" href="http://omaha.com" target="_blank"><img class="logo" src="http://dataomaha.com/media/logo-owh-black.png" style="width: 150px; padding: 15px 0;"></a>
+		<a class="navbar-right" href="http://omaha.com" target="_blank"><img class="logo" src="http://dataomaha.com/media/logo-owh-white.png" style="width: 150px; padding: 15px 0;"></a>
         </div><!--/.nav-collapse -->
       </div>
     </div>
         {% block content %}{% endblock %}
-        
-    <div class="container credits">
-    <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">Refugee Processing Center</a>&ensp;&bull;&ensp;<a href="http://www.twitter.com/dataomaha" target="_blank">Follow @dataomaha on Twitter</a></p>
-    </div>
 	</body>
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

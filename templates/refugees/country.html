@@ -1,1 +1,125 @@
-pijsdpijsgpijj
+{% extends 'refugees/base.html' %}
+{% load humanize %}
+
+{% block title %}{{ first.countrycode.name }} - {% endblock %}
+
+{% block styles %}
+#chart { width: 100%; height: 300px; margin-bottom:30px;}
+.state { background:#f5f8fa; padding:20px; margin-bottom:30px; box-shadow: 0 0 4px #ccc; }
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <div class="container">
+    <h2 class="bold">{{ first.countrycode.name }}</h2>
+    <p class="lead">Since 2002, <strong>{{ country_total.num__sum|intcomma }}</strong> refugee{{ country_total.num__sum|pluralize }} from {{ first.countrycode.name }} have resettled in the United States.</p>
+    </div>
+</div>
+
+<div class="container" style="margin:50px auto 30px auto;">
+<div class="row">
+    
+    <div class="col-md-6">
+        <div id="statemap"></div>
+        <div id="statelist"></div>
+      </div>
+      
+<div class="col-md-5 col-md-offset-1">
+    <div id="chart"></div>
+        <div class="well">
+        <h3><span class="sf">z</span>&ensp;Select a state</h3>
+        <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/state/' + this.value">
+            <option value="">--</option>{% for state in list_of_states %}
+            <option value="{{ state.stateabbr|lower }}">{{ state.stateabbr__statename }}</option>{% endfor %}
+        </select>
+        <h3 style="margin-top:50px;"><i class="fa fa-map-marker"></i>&ensp;Select another country</h3>
+        <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/country/' + this.value">>
+        <option value="">--</option>
+        {% for country in sum_by_country %}<option value="{{ country.countrycode }}">{{ country.countrycode__name }}</option>
+        {% endfor %}
+        </select>
+        </div>
+        <div class="credits">
+            <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">Refugee Processing Center</a>&ensp;&bull;&ensp;<a href="http://www.twitter.com/dataomaha" target="_blank">Follow @dataomaha on Twitter</a></p>
+        </div>
+    </div>
+        
+</div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.min.js"></script>
+<script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.time.min.js"></script>
+<script>
+
+var statedata = [{% for thing in sum_by_state %}{"state":"{{ thing.stateabbr__statename }}","stateabbr":"{{ thing.stateabbr }}","city":"{{ thing.city }}","sum":{{ thing.num__sum }}}{% if not forloop.last %},{% endif %}{%endfor%}];
+
+// do map stuff here
+
+var getYear = function(y) {
+    return new Date(y, 0, 1).getTime();
+}
+
+var d1 = [{% for dude in country_sum_by_year %}[getYear({{dude.year}}), {{ dude.num__sum }}]{% if not forloop.last %},{% endif %}{% endfor %}];
+
+function addCommas(nStr)
+    {
+        nStr += '';
+        x = nStr.split('.');
+        x1 = x[0];
+        x2 = x.length > 1 ? '.' + x[1] : '';
+        var rgx = /(\d+)(\d{3})/;
+        while (rgx.test(x1)) {
+            x1 = x1.replace(rgx, '$1' + ',' + '$2');
+            }
+        return x1 + x2;
+    }
+
+function formatter(val, axis) {
+    return addCommas(val);
+}
+
+var chartIt = function() {
+    $.plot($("#chart"), [d1], {
+        series: {
+            bars: {
+                show: true,
+				fillColor: '#c8d8e3',
+                align: "center"
+            },
+          color: "#fff"
+        },
+        bars: { barWidth: 60*60*24*365*1000 },
+        shadowSize: 0,
+        xaxis: {
+            min: (new Date(2001, 6, 0)).getTime(),
+            max: (new Date(2015, 6, 0)).getTime(),
+            mode: "time",
+            tickLength: 0,
+            ticks: 3
+        },
+        yaxis: {
+            tickFormatter: formatter
+        },        
+        grid: {
+            borderWidth: 0.5,
+            axisMargin: 0,
+            borderColor: '#eee',
+            color: '#eee',
+            labelMargin:15
+            }
+    });
+};
+
+$(document).ready(function() {
+    chartIt();
+});
+    
+window.onresize = function() {
+    chartIt();
+};
+
+</script>
+{% endblock %}

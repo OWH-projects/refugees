@@ -1,33 +1,43 @@
 {% extends 'refugees/base.html' %}
 {% load humanize %}
 
+{% block title %}{{ first.stateabbr.statename }} - {% endblock %}
+
 {% block styles %}
-#chart { width: 100%; height: 200px; margin-bottom:30px;}
+#chart { width: 100%; height: 300px; margin-bottom:30px;}
+.city { background:#f5f8fa; padding:20px; margin-bottom:30px; box-shadow: 0 0 4px #ccc; }
+
 {% endblock %}
 
 {% block content %}
 <div class="jumbotron">
     <div class="container">
-    <h3 class="bold">{% if first.stateabbr.stateface %}<span class="sf">{{ first.stateabbr.stateface }}</span>&ensp;{% endif %}{{ first.stateabbr.statename }}</h3>
+    <h2 class="bold">{% if first.stateabbr.stateface %}<span class="sf">{{ first.stateabbr.stateface }}</span>&ensp;{% endif %}{{ first.stateabbr.statename }}</h2>
+    <p class="lead">Since 2002, <strong>{{ state_total.num__sum|intcomma|apnumber }}</strong> refugee{{ state_total.num__sum|pluralize }} from <strong>{{ state_sum_by_country.count|apnumber }}</strong> countr{{ state_sum_by_country.count|pluralize:"y,ies" }} {{ state_total.num__sum|pluralize:"has,have" }} resettled in {% if first.stateabbr.statename == "District of Columbia" %}the {% endif %}{{ first.stateabbr.statename }}.</p>
     </div>
 </div>
 
-<div class="container" style="margin:70px auto 30px auto;">
-<p class="lead">Since 2002, <strong>{{ state_total.num__sum|intcomma }}</strong> refugee{{ state_total.num__sum|pluralize }} {{ state_total.num__sum|pluralize:"has,have" }} been resettled in {% if first.stateabb != "DC" %}<strong>{{ sum_by_city.count }}</strong> {{ first.state }} cit{{ sum_by_city.count|pluralize:"y,ies" }} in {{ first.stateabbr.statename }}{% else %}the District of Columbia{% endif %}.</p>
-
-<div class="row" style="margin-top:35px;">
+<div class="container" style="margin:50px auto 30px auto;">
+<div class="row">
     <div class="col-md-6">
         <div id="chart"></div>
         <div id="statemap"></div>
         <div id="citylist">
-        <table class="table lead" style="margin-top:30px;">
-        {% for city in sum_by_city %}
-        <tr>
-            <td>{{ city.city }}</td>
-            <td>{{ city.num__sum|intcomma }}</td>
-        </tr>
+        
+        {% regroup sum_by_city by city as city_list %}
+        
+        {% for city in city_list %}
+            <div class="city">
+            <h3 class="bold">{{ city.grouper }}</h3>
+                <ul class="lead">
+                {% for item in city.list|dictsortreversed:"num__sum" %}
+                  <li><a href="/refugees/country/{{ item.countrycode }}">{{ item.countrycode__name }}</a>: {{ item.num__sum|intcomma }}</li>
+                {% endfor %}
+                </ul>
+            </div>
         {% endfor %}
-        </table>
+        </ul>
+        
         </div>        
     </div>
 
@@ -35,19 +45,20 @@
         <div class="well">
         <h3><span class="sf">z</span>&ensp;Select another state</h3>
         <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/state/' + this.value">
-            <option value="">--</option>
-        {% for state in list_of_states %}
+            <option value="">--</option>{% for state in list_of_states %}
             <option value="{{ state.stateabbr|lower }}">{{ state.stateabbr__statename }}</option>
         {% endfor %}
         </select>
         <h3 style="margin-top:50px;"><i class="fa fa-map-marker"></i>&ensp;Select a country</h3>
         <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/country/' + this.value">>
-        <option value="">--</option>
-        {% for country in sum_by_country %}
+        <option value="">--</option>{% for country in sum_by_country %}
             <option value="{{ country.countrycode }}">{{ country.countrycode__name }}</option>
         {% endfor %}
         </select>
         </div>
+        <div class="credits">
+        <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">Refugee Processing Center</a>&ensp;&bull;&ensp;<a href="http://www.twitter.com/dataomaha" target="_blank">Follow @dataomaha on Twitter</a></p>
+    </div>
     </div>
 </div>
 
@@ -58,8 +69,9 @@
 {% block scripts %}
 <script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.min.js"></script>
 <script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.time.min.js"></script>
-<script src="http://www.dataomaha.com/media/stateface/stateface.js"></script>
 <script>
+
+var citydata = [{% for thing in sum_by_city %}{"country":"{{ thing.countrycode__name }}","countrycode":"{{ thing.countrycode }}","city":"{{ thing.city }}","sum":{{ thing.num__sum }}}{% if not forloop.last %},{% endif %}{%endfor%}];
 
 var getYear = function(y) {
     return new Date(y, 0, 1).getTime();

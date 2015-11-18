@@ -2,7 +2,7 @@
 {% load humanize %}
 
 {% block styles %}
-#chart { width: 100%; height: 250px; margin-bottom:30px;}
+#chart { width: 100%; height: 350px; margin-bottom:30px;}
 th { cursor:pointer; cursor:hand; }
 {% endblock %}
 
@@ -16,15 +16,14 @@ th { cursor:pointer; cursor:hand; }
 <div class="container">
 <div class="row" style="margin-top:35px;">
 <div class="col-md-7">
-    <div class="mapcontainer">
+<div id="chart"></div>
+    <!--<div class="mapcontainer">
         <svg id="map" style="display:block; margin: 0 auto;" width="960" height="960" viewBox="0 0 960 960" preserveAspectRatio="xMidYMid"></svg>
-    </div>
+    </div>-->
 </div>
 
 <div class="col-md-5">
-<div id="chart"></div>
-<hr>
-<p class="lead">Some chatter here? Updated {{ last_updated|date:"N j, Y" }}</p>
+<p class="lead">Some chatter here -- Updated {{ last_updated|date:"N j, Y" }}</p>
 
 <div class="well">
     <button type="button" id="tableswitcher" class="btn btn-primary btn-lg btn-block" style="margin-bottom:15px;">Show totals by country of origin</button>
@@ -77,6 +76,7 @@ th { cursor:pointer; cursor:hand; }
 
 <script>
 
+/*
 var list_of_country_codes = [{% for thing in sum_by_country %}{{ thing.countrycode|add:"0" }}{% if not forloop.last %}, {% endif %}{% endfor %}];
 
 var map = $("#map");
@@ -110,10 +110,10 @@ d3.json("/static/gis/world-50m.json", function(error, world) {
       .data(topojson.feature(world, world.objects.countries).features)
       .enter().insert("path", ".graticule")
       .attr("class", "boundary")
-      .style("fill", function(d) { if ( _.contains(list_of_country_codes, d.id) ) { return "#21b750" } else if ( d.id === 840 ) { return "#fff" } else { return "#000" }; })
+      .style("fill", function(d) { if ( _.contains(list_of_country_codes, d.id) ) { return "#21b750" } else { return "#000" }; })
       .attr("d", path);
 });
-
+*/
 //opposite col: 916749
 
 $("#tableswitcher").click(function() {
@@ -192,9 +192,9 @@ $(document).ready(function() {
 
 var updateLayout = _.debounce(function(e) {
     chartIt();
-    var targetWidth = $('#mapcontainer').width();
-    $('#map').attr("width", targetWidth);
-    $('#map').attr("height", targetWidth);
+    //var targetWidth = $('#mapcontainer').width();
+    //$('#map').attr("width", targetWidth);
+    //$('#map').attr("height", targetWidth);
 }, 500);
 
 window.addEventListener("resize", updateLayout, false);
