@@ -217,7 +217,6 @@ def parseCSV(year, filename, delim):
         f.close()
         
 def stackEmUp():
-    os.chdir("/home/omaha/webapps/django16/myproject/refugees/data")
     results = [f for f in glob.glob("*.txt") if re.search(r'(20\d\d-processed).*\.txt$', f)]
     s = " ".join(results)
     with hide('running', 'stdout', 'stderr'):
