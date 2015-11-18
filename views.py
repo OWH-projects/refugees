@@ -1,7 +1,7 @@
 from models import *
 from django.shortcuts import *
 from django.db.models import *
-from myproject.refugees.models import *
+from refugees.models import *
 from django.http import HttpResponse
 import datetime
 
@@ -31,7 +31,11 @@ def Country(request, country):
     refs = Refugee.objects.filter(countrycode=country)
     country_total = refs.aggregate(Sum("num"))
     first = refs[0]
-    sum_by_state = refs.values("stateabbr", "stateabbr__statename", "city").annotate(Sum("num")).order_by('stateabbr__statename')
+    sum_by_state = refs.values("stateabbr", "stateabbr__statename", "stateabbr__fips").annotate(Sum("num")).order_by('stateabbr__statename')
     country_sum_by_year = refs.values("year").annotate(Sum("num")).order_by('year')
     dictionaries = {'country_total': country_total, 'first':first, 'sum_by_state':sum_by_state, 'country_sum_by_year':country_sum_by_year, 'list_of_states':list_of_states, 'sum_by_country':sum_by_country,}
     return render_to_response('refugees/country.html', dictionaries)
+
+def About(request):
+    dictionaries = {'total_count':total_count, 'last_updated':last_updated,}
+    return render_to_response('refugees/about.html', dictionaries)

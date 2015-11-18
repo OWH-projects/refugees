@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Crunk xls files into pipe-delimited text files
+#Crunk xls files into pipe-delimited text
 OIFS="$IFS"
 
 for f in *.xls
@@ -20,7 +20,3 @@ IFS="$OIFS"
 
 #Stack 'em up
 fab stackEmUp
-
-#Pull out unique country names, match to dict with ISO 3-digit IDs, etc.
-#Pull out unique states, match to dict with FIPS, etc.
-

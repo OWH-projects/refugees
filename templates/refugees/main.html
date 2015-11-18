@@ -2,14 +2,14 @@
 {% load humanize %}
 
 {% block styles %}
-#chart { width: 100%; height: 350px; margin-bottom:30px;}
+#chart { width: 100%; height: 300px; margin-bottom:30px;}
 th { cursor:pointer; cursor:hand; }
 {% endblock %}
 
 {% block content %}
 <div class="jumbotron">
 <div class="container">
-<h3>Since 2002, more than <strong>{{ total_count.quoi|intcomma }}</strong> refugees from <strong>{{ sum_by_country.count }}</strong> countries have been resettled in the United States.</h3>
+<h3>Since 2002, more than <strong>{{ total_count.quoi|intcomma }}</strong> refugees from <strong>{{ sum_by_country.count }}</strong> countries have resettled in the United States.</h3>
 </div>
 </div>
 
@@ -17,21 +17,29 @@ th { cursor:pointer; cursor:hand; }
 <div class="row" style="margin-top:35px;">
 <div class="col-md-7">
 <div id="chart"></div>
-    <!--<div class="mapcontainer">
-        <svg id="map" style="display:block; margin: 0 auto;" width="960" height="960" viewBox="0 0 960 960" preserveAspectRatio="xMidYMid"></svg>
-    </div>-->
+<hr>
+<p>Data from the <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">U.S Department of State Refugee Processing Center</a>. Updated {{ last_updated|date:"N j, Y" }}.</p>
+
+<h2 style="margin-top:40px;">World-Herald coverage</h2>
+<ul class="lead">
+    <li><a href="http://www.omaha.com/news/metro/midlands-lawmakers-cite-security-concerns-in-push-for-suspension-of/article_24c8262b-5c26-52e1-b3b6-186f7166b1d5.html" target="_blank">Midlands lawmakers cite security concerns in push for suspension of refugee resettlements</a></li>
+    <li><a href="http://www.omaha.com/news/nebraska/despite-opposition-from-ricketts-and-others-resettlement-groups-still-willing/article_98fdc87c-8d5f-11e5-b9da-37b4895093a5.html" target="_blank">Despite opposition from Ricketts and others, resettlement groups still willing to help Syrians</a></li>
+    <li><a href="http://www.omaha.com/news/nebraska/after-paris-attacks-ricketts-branstad-oppose-resettlement-of-syrian-refugees/article_b59ba0ee-8ca1-11e5-b74f-a74b34cbe379.html" target="_blank">After Paris attacks, Ricketts, Branstad oppose resettlement of Syrian refugees in Nebraska, Iowa</a></li>
+    <li><a href="http://www.omaha.com/news/goodnews/thank-you-omaha-syria-native-finds-new-home-in-the/article_f2d904ba-7b65-58e1-b9e1-11c62680206f.html" target="_blank">Thank you, Omaha: Syria native finds new home in the heart of the Midwest</a></li>
+</ul>
+
+<!--<p class="small ital"><a href="/refugees/about">More information about this data</a></p>-->
+
 </div>
 
 <div class="col-md-5">
-<p class="lead">Some chatter here -- Updated {{ last_updated|date:"N j, Y" }}</p>
-
 <div class="well">
-    <button type="button" id="tableswitcher" class="btn btn-primary btn-lg btn-block" style="margin-bottom:15px;">Show totals by country of origin</button>
+    <button type="button" id="tableswitcher" class="btn btn-default btn-lg btn-block" style="margin-bottom:15px;">By country of origin</button>
     <table class="table lead" id="stateTable">
     <thead>
         <tr>
             <th>State</th>
-            <th>Count</th>
+            <th>Number</th>
         </tr>
     </thead>
     <tbody>
@@ -49,7 +57,7 @@ th { cursor:pointer; cursor:hand; }
     <thead>
         <tr>
             <th>Country</th>
-            <th>Count</th>
+            <th>Number</th>
         </tr>
     </thead>
     <tbody>
@@ -76,55 +84,15 @@ th { cursor:pointer; cursor:hand; }
 
 <script>
 
-/*
-var list_of_country_codes = [{% for thing in sum_by_country %}{{ thing.countrycode|add:"0" }}{% if not forloop.last %}, {% endif %}{% endfor %}];
-
-var map = $("#map");
-var targetWidth = $('#mapcontainer').width();
-map.attr("width", targetWidth);
-map.attr("height", targetWidth);
-
-var width = 960,
-    height = 960;
-
-var projection = d3.geo.mercator()
-    .scale((width + 1) / 2 / Math.PI)
-    .translate([width / 2, height / 2])
-    .precision(.1);
-
-var path = d3.geo.path()
-    .projection(projection);
-
-var graticule = d3.geo.graticule();
-var svg = d3.select("svg");
-
-d3.json("/static/gis/world-50m.json", function(error, world) {
-  if (error) throw error;
-  
-  svg.insert("path", ".graticule")
-      .datum(topojson.feature(world, world.objects.land))
-      .attr("class", "boundary")
-      .attr("d", path);
-
-  svg.selectAll(".country")
-      .data(topojson.feature(world, world.objects.countries).features)
-      .enter().insert("path", ".graticule")
-      .attr("class", "boundary")
-      .style("fill", function(d) { if ( _.contains(list_of_country_codes, d.id) ) { return "#21b750" } else { return "#000" }; })
-      .attr("d", path);
-});
-*/
-//opposite col: 916749
-
 $("#tableswitcher").click(function() {
     if ( $('#stateTable:visible').size() > 0 ){
         $("#stateTable").hide();
         $("#countryTable").show();
-        $(this).text("See totals by state");
+        $(this).text("By state");
     } else {
         $("#countryTable").hide();
         $("#stateTable").show();
-        $(this).text("See totals by country of origin");
+        $(this).text("By country of origin");
     };
 });
 

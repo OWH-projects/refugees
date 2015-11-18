@@ -22,6 +22,7 @@ class State(models.Model):
     statelat = models.DecimalField(max_digits=50, decimal_places=10, null=False, blank=False)
     statelng = models.DecimalField(max_digits=50, decimal_places=10, null=False, blank=False)
     stateface = models.CharField(max_length=1)
+    fips = models.IntegerField(null=True, blank=True)
     text = models.TextField(null=True, blank=True)
 
     class Meta:

@@ -4,7 +4,7 @@
 {% block title %}{{ first.stateabbr.statename }} - {% endblock %}
 
 {% block styles %}
-#chart { width: 100%; height: 300px; margin-bottom:30px;}
+#chart { width: 100%; height: 275px; margin-bottom:10px;}
 .city { background:#f5f8fa; padding:20px; margin-bottom:30px; box-shadow: 0 0 4px #ccc; }
 
 {% endblock %}
@@ -19,29 +19,32 @@
 
 <div class="container" style="margin:50px auto 30px auto;">
 <div class="row">
+    
     <div class="col-md-6">
-        <div id="chart"></div>
-        <div id="statemap"></div>
-        <div id="citylist">
         
-        {% regroup sum_by_city by city as city_list %}
+        {% if first.stateabbr.statename != "District of Columbia" %}
+        <div class="radio input-lg" style="margin-bottom:0;">
+          <label>
+            <input type="radio" name="grouper" id="citygroup" value="0" checked>
+            Group by city
+          </label>
+        </div>
+
+        <div class="radio input-lg">
+          <label>
+            <input type="radio" name="grouper" id="countrygroup" value="1">
+            Group by country of origin
+          </label>
+        </div>
+        {% endif %}
         
-        {% for city in city_list %}
-            <div class="city">
-            <h3 class="bold">{{ city.grouper }}</h3>
-                <ul class="lead">
-                {% for item in city.list|dictsortreversed:"num__sum" %}
-                  <li><a href="/refugees/country/{{ item.countrycode }}">{{ item.countrycode__name }}</a>: {{ item.num__sum|intcomma }}</li>
-                {% endfor %}
-                </ul>
-            </div>
-        {% endfor %}
-        </ul>
-        
-        </div>        
-    </div>
+        <div id="outlist"></div>        
+
+        </div>
 
     <div class="col-md-5 col-md-offset-1">
+        <div id="chart"></div>
+        <p class="small ital" style="text-align:center; margin-bottom:30px;">Annual totals for {{ first.stateabbr.statename }}</p>
         <div class="well">
         <h3><span class="sf">z</span>&ensp;Select another state</h3>
         <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/state/' + this.value">
@@ -57,12 +60,49 @@
         </select>
         </div>
         <div class="credits">
-        <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">Refugee Processing Center</a>&ensp;&bull;&ensp;<a href="http://www.twitter.com/dataomaha" target="_blank">Follow @dataomaha on Twitter</a></p>
-    </div>
+        <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">U.S. State Department Refugee Processing Center</a></p>
+        </div>
+        <hr>
+        <div class="row">
+        <div class="col-md-6">
+        <h3 style="margin-top:0;"><a id="twit"><i class="fa fa-twitter"></i></a>&emsp;<a id="fb"><i class="fa fa-facebook-square"></i></a></h3>
+        </div>        
+        <div class="col-md-6">
+        <input class="form-control" id="sharebox" type="text" />
+        </div>
+        </div>
+    
     </div>
 </div>
 
 </div>
+
+<script type="text/html" class="city_template">
+<% _.each( tangerine, function( k, v ){ %>
+    <div class="city">
+        {% if first.stateabbr.statename != "District of Columbia" %}<h3 class="bold"><%= v %> (<%= getSum(k, "sum") %>)</h3>{% endif %}
+        <ul class="lead">
+            <% _.each(_.sortBy(k, "sum").reverse(), function (ls) { %>
+            <li><a href="/refugees/country/<%= ls.countrycode %>"><%= ls.country %></a>: <%= addCommas(ls.sum) %></li>
+        <% }); %>
+        </ul>
+    </div>
+<% }); %>
+</script>
+
+<script type="text/html" class="country_template">
+<% _.each( tangerine, function( k, v ){ %>
+    <div class="city">
+        <h3 class="bold"><a href="/refugees/country/<%= k[0].countrycode %>"><%= v %></a> (<%= getSum(k, "sum") %>)</h3>
+        <ul class="lead">
+            <% _.each(_.sortBy(k, "sum").reverse(), function (ls) { %>
+            <li><%= ls.city %></a>: <%= addCommas(ls.sum) %></li>
+        <% }); %>
+        </ul>
+    </div>
+<% }); %>
+
+</script>
 
 {% endblock %}
 
@@ -71,15 +111,27 @@
 <script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.time.min.js"></script>
 <script>
 
-var citydata = [{% for thing in sum_by_city %}{"country":"{{ thing.countrycode__name }}","countrycode":"{{ thing.countrycode }}","city":"{{ thing.city }}","sum":{{ thing.num__sum }}}{% if not forloop.last %},{% endif %}{%endfor%}];
+$("#sharebox")
+    .val(window.location + "?ref=statesharebox")
+    .click(function() {
+        $(this).select();
+    });
 
-var getYear = function(y) {
-    return new Date(y, 0, 1).getTime();
-}
+var tw = "https://twitter.com/intent/tweet?text=" + encodeURIComponent('Via @dataomaha: Since 2002, {{ state_total.num__sum|intcomma|apnumber }} refugee{{ state_total.num__sum|pluralize }} from {{ state_sum_by_country.count|apnumber }} countr{{ state_sum_by_country.count|pluralize:"y,ies" }} {{ state_total.num__sum|pluralize:"has,have" }} resettled in {% if first.stateabbr.statename == "District of Columbia" %}the {% endif %}{{ first.stateabbr.statename }}: ') + window.location + "?ref=statetwittericon";
 
-var d1 = [{% for dude in sum_by_year %}[getYear({{dude.year}}), {{ dude.num__sum }}]{% if not forloop.last %},{% endif %}{% endfor %}];
+$("#twit").attr({
+    href: tw,
+    target: "_blank"
+});
 
-function addCommas(nStr)
+$("#fb").attr({
+    href: "http://www.facebook.com/sharer.php?u=" + window.location + "?ref=statefbicon",
+    target: "_blank"
+});
+
+_.templateSettings.variable = "tangerine";
+
+var addCommas = function(nStr)
     {
         nStr += '';
         x = nStr.split('.');
@@ -90,7 +142,34 @@ function addCommas(nStr)
             x1 = x1.replace(rgx, '$1' + ',' + '$2');
             }
         return x1 + x2;
-    }
+    };
+
+var citydata = [{% for thing in sum_by_city %}{"country":"{{ thing.countrycode__name }}","countrycode":"{{ thing.countrycode }}","city":"{{ thing.city }}","sum":{{ thing.num__sum }}}{% if not forloop.last %},{% endif %}{%endfor%}];
+
+var getCity = function() {
+    var byCity = _.groupBy(citydata, "city");
+    var template = _.template($( "script.city_template" ).html());
+    $('#outlist').html(template( byCity ));
+};
+
+var getCountry = function() {
+    var byCountry = _.groupBy(citydata, "country");
+    console.log(byCountry);
+    var template = _.template($( "script.country_template" ).html());
+    $('#outlist').html(template( byCountry ));
+};
+
+var getSum = function(ls, attr) {
+    var nums = _.pluck(ls, attr);    
+    var sum = _.reduce(nums, function(memo, num){ return memo + num; }, 0);
+    return addCommas(sum);
+};
+
+var getYear = function(y) {
+    return new Date(y, 0, 1).getTime();
+}
+
+var d1 = [{% for dude in sum_by_year %}[getYear({{dude.year}}), {{ dude.num__sum }}]{% if not forloop.last %},{% endif %}{% endfor %}];
 
 function formatter(val, axis) {
     return addCommas(val);
@@ -131,11 +210,20 @@ var chartIt = function() {
 
 $(document).ready(function() {
     chartIt();
+    getCity();
 });
     
 window.onresize = function() {
     chartIt();
 };
+
+$("input[name=grouper]").change(function() {
+    if ( $(this).attr('id') === "citygroup" ) {
+        getCity();
+    } else {
+        getCountry();
+    };
+});
 
 </script>
 {% endblock %}

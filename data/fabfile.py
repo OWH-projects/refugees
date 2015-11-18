@@ -8,11 +8,11 @@ import os
 fabric.state.output.status = False
 
 """
-Given a series of xls files with annual refugee data, kick out a single file to upload for Refugee model. List any countries or states that aren't in our lookup.
+Given a series of xls files with annual refugee data, kick out a single file to upload for Refugee model. List any countries or states that aren't in our lookup. Requires fabric and csvkit.
 
 TO DO
 =============
-Fetch and resize world flag pics.
+Fetch and resize world flag pics?
 
 """
 
@@ -213,11 +213,11 @@ def parseCSV(year, filename, delim):
                 city = row[2]
             if row[0] == "" and row[1] == "":
                 number = str(int(float(row[3])))
-                f.write("|".join(["", city, number, year, "", countrycode, stateabbr]) + "\n")
+                f.write("|".join(["", countrycode, city, number, year, "", stateabbr]) + "\n")
         f.close()
         
 def stackEmUp():
-    os.chdir("/home/apps/myproject/myproject/refugees/data")
+    os.chdir("/home/omaha/webapps/django16/myproject/refugees/data")
     results = [f for f in glob.glob("*.txt") if re.search(r'(20\d\d-processed).*\.txt$', f)]
     s = " ".join(results)
     with hide('running', 'stdout', 'stderr'):

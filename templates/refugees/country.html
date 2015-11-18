@@ -4,15 +4,17 @@
 {% block title %}{{ first.countrycode.name }} - {% endblock %}
 
 {% block styles %}
-#chart { width: 100%; height: 300px; margin-bottom:30px;}
+#chart { width: 100%; height: 300px; margin-bottom:10px;}
 .state { background:#f5f8fa; padding:20px; margin-bottom:30px; box-shadow: 0 0 4px #ccc; }
+#state-borders { fill: none; stroke: #fff; stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round; pointer-events: none; }
+.mapcontainer { margin-bottom:30px;}
 {% endblock %}
 
 {% block content %}
 <div class="jumbotron">
     <div class="container">
     <h2 class="bold">{{ first.countrycode.name }}</h2>
-    <p class="lead">Since 2002, <strong>{{ country_total.num__sum|intcomma }}</strong> refugee{{ country_total.num__sum|pluralize }} from {{ first.countrycode.name }} have resettled in the United States.</p>
+    <p class="lead">Since 2002, <strong>{{ country_total.num__sum|intcomma|apnumber }}</strong> refugee{{ country_total.num__sum|pluralize }} from {{ first.countrycode.name }} ha{{ country_total.num__sum|pluralize:"s,ve" }} resettled in the United States.</p>
     </div>
 </div>
 
@@ -20,12 +22,17 @@
 <div class="row">
     
     <div class="col-md-6">
-        <div id="statemap"></div>
+    <div class="mapcontainer">
+        <svg id="map" style="display:block; margin: 0 auto;" width="960" height="530" viewBox="0 0 960 530" preserveAspectRatio="xMidYMid"></svg>
+    </div>
         <div id="statelist"></div>
       </div>
       
 <div class="col-md-5 col-md-offset-1">
+    {% if country_total.num__sum > 10 %}
     <div id="chart"></div>
+    <p class="small ital" style="text-align:center; margin-bottom:30px;">Annual totals for {{ first.countrycode.name }}</p>
+    {% endif %}
         <div class="well">
         <h3><span class="sf">z</span>&ensp;Select a state</h3>
         <select class="form-control input-lg" onchange="if (this.value) window.location.href='/refugees/state/' + this.value">
@@ -40,31 +47,63 @@
         </select>
         </div>
         <div class="credits">
-            <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">Refugee Processing Center</a>&ensp;&bull;&ensp;<a href="http://www.twitter.com/dataomaha" target="_blank">Follow @dataomaha on Twitter</a></p>
+            <p>Data: <a href="http://www.wrapsnet.org/Reports/InteractiveReporting/tabid/393/EnumType/Report/Default.aspx?ItemPath=/rpt_WebArrivalsReports/MX%20-%20Arrivals%20by%20Destination%20and%20Nationality" target="_blank">U.S. State Department Refugee Processing Center</a></p>
         </div>
+        <hr>
+        <div class="row">
+        <div class="col-md-6">
+        <h3 style="margin-top:0;"><a id="twit"><i class="fa fa-twitter"></i></a>&emsp;<a id="fb"><i class="fa fa-facebook-square"></i></a></h3>
+        </div>        
+        <div class="col-md-6">
+        <input class="form-control" id="sharebox" type="text" />
+        </div>
+        </div>
+        
     </div>
         
 </div>
 </div>
+
+<script type="html/text" class="template">
+    <table class="table lead">
+    <% _.each( tangerine, function( st ){ %>
+        <tr>
+        <td><a href="/refugees/state/<%= st.stateabbr %>"><%= st.state %></a></td>
+        <td><%= addCommas(st.sum) %></td>
+        </tr>
+    <% }); %>
+    </table>
+</script>
 
 {% endblock %}
 
 {% block scripts %}
 <script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.min.js"></script>
 <script src="http://www.dataomaha.com/media/scripts/flot/jquery.flot.time.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.19/topojson.min.js"></script>
+
 <script>
 
-var statedata = [{% for thing in sum_by_state %}{"state":"{{ thing.stateabbr__statename }}","stateabbr":"{{ thing.stateabbr }}","city":"{{ thing.city }}","sum":{{ thing.num__sum }}}{% if not forloop.last %},{% endif %}{%endfor%}];
+$("#sharebox")
+    .val(window.location + "?ref=countrysharebox")
+    .click(function() {
+        $(this).select();
+    });
 
-// do map stuff here
+var tw = "https://twitter.com/intent/tweet?text=" + encodeURIComponent('Via @dataomaha: Since 2002, {{ country_total.num__sum|intcomma|apnumber }} refugee{{ country_total.num__sum|pluralize }} from {{ first.countrycode.name }} ha{{ country_total.num__sum|pluralize:"s,ve" }} resettled in the United States: ') + window.location + "?ref=countrytwittericon";
 
-var getYear = function(y) {
-    return new Date(y, 0, 1).getTime();
-}
+$("#twit").attr({
+    href: tw,
+    target: "_blank"
+});
 
-var d1 = [{% for dude in country_sum_by_year %}[getYear({{dude.year}}), {{ dude.num__sum }}]{% if not forloop.last %},{% endif %}{% endfor %}];
+$("#fb").attr({
+    href: "http://www.facebook.com/sharer.php?u=" + window.location + "?ref=countryfbicon",
+    target: "_blank"
+});
 
-function addCommas(nStr)
+var addCommas = function(nStr)
     {
         nStr += '';
         x = nStr.split('.');
@@ -75,7 +114,61 @@ function addCommas(nStr)
             x1 = x1.replace(rgx, '$1' + ',' + '$2');
             }
         return x1 + x2;
-    }
+    };
+
+_.templateSettings.variable = "tangerine";
+
+var statedata = [{% for thing in sum_by_state %}{"state":"{{ thing.stateabbr__statename }}","stateabbr":"{{ thing.stateabbr|lower }}","fips":{{ thing.stateabbr__fips }},"sum":{{ thing.num__sum }}}{% if not forloop.last %},{% endif %}{%endfor%}];
+
+var fipslist = _.uniq(_.pluck(statedata, "fips"));
+
+var sorted = _.sortBy(statedata, "state");
+var template = _.template($( "script.template" ).html());
+$('#statelist').html(template( sorted ));
+
+var basemapcolor = "#ddd";
+var highlightmapcolor = "orange";
+
+var map = $("#map");
+var targetWidth = $('#mapcontainer').width();
+map.attr("width", targetWidth);
+map.attr("height", targetWidth);
+
+var width = 960;
+var height = 500;
+
+var projection = d3.geo.albersUsa()
+    .scale(1070)
+    .translate([width / 2, height / 2]);
+
+var path = d3.geo.path()
+    .projection(projection);
+
+var svg = d3.select("svg");
+var g = svg.append("g");
+
+d3.json("/media/gis/us.json", function(error, us) {
+  if (error) throw error;  
+    g.append("g")
+      .attr("id", "states")
+      .selectAll("path")
+      .data(topojson.feature(us, us.objects.states).features)
+      .enter().append("path")
+      .attr("d", path)
+      .attr("fill", function(d) { if (_.contains(fipslist, d.id)) { return highlightmapcolor; } else { return basemapcolor; }; } );
+
+    g.append("path")
+      .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
+      .attr("id", "state-borders")
+      .attr("d", path);
+});
+
+{% if country_total.num__sum > 10 %}
+var getYear = function(y) {
+    return new Date(y, 0, 1).getTime();
+}
+
+var d1 = [{% for dude in country_sum_by_year %}[getYear({{dude.year}}), {{ dude.num__sum }}]{% if not forloop.last %},{% endif %}{% endfor %}];
 
 function formatter(val, axis) {
     return addCommas(val);
@@ -116,10 +209,16 @@ var chartIt = function() {
 $(document).ready(function() {
     chartIt();
 });
-    
-window.onresize = function() {
-    chartIt();
-};
+{% endif %}
+
+var updateLayout = _.debounce(function(e) {
+{% if country_total.num__sum > 10 %}chartIt();{% endif %}
+    var targetWidth = $('#mapcontainer').width();
+    $('#map').attr("width", targetWidth);
+    $('#map').attr("height", targetWidth);
+});
+
+window.addEventListener("resize", updateLayout, false);
 
 </script>
 {% endblock %}
